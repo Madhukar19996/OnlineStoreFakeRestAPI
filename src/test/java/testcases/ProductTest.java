@@ -18,7 +18,7 @@ public class ProductTest extends Baseclass {
 
 
 	//1) Test to retrieve all products
-	//@Test()
+	@Test()
 	public void testGetAllProducts()
 	{
 		given()
@@ -28,14 +28,15 @@ public class ProductTest extends Baseclass {
 
 		.then()
 		.statusCode(200)
+		//.log().body()
 		.body("size()",greaterThan(0));
-		//.log().body();
+
 	} 
 
 
 	//2)Test to retrieve a single product by ID 
 
-	//@Test()
+	@Test()
 	public void testGetProductByID()
 	{   
 		int productId =configReader.getIntProperty("productId");
@@ -47,15 +48,15 @@ public class ProductTest extends Baseclass {
 		.get(Routes.GET_PRODUCT_BY_ID)
 
 		.then()
-		.statusCode(200)
-		.log().body();
+		.statusCode(200);
+		//.log().body();
 	}
 
 
 
 	//3)Test to retrieve a limited number of products
 
-	//@Test()
+	@Test()
 	public void testGetLimitedProducts()
 	{   
 
@@ -68,7 +69,7 @@ public class ProductTest extends Baseclass {
 
 		.then()
 		.statusCode(200)
-		.log().body()
+		//.log().body()
 		.body("size()",equalTo(5));
 
 	}
@@ -76,7 +77,7 @@ public class ProductTest extends Baseclass {
 
 	//4)Test to retrieve products sorted in descending order
 
-	//@Test()
+	@Test()
 	public void testGetSortedProducts()
 	{   
 
@@ -101,7 +102,7 @@ public class ProductTest extends Baseclass {
 
 
 	//5)Test to retrieve products sorted in ascending order
-	//@Test()
+	@Test()
 	public void testGetSortedProductsASC()
 	{   
 
@@ -126,7 +127,7 @@ public class ProductTest extends Baseclass {
 
 
 	//6)Test to get all product categories
-	//@Test()
+	@Test()
 	public void testGetAllCategories()
 	{   
 
@@ -158,11 +159,74 @@ public class ProductTest extends Baseclass {
 		.statusCode(200)
 		.body("size()", greaterThan(0))
 		.body("category",everyItem(notNullValue()))
-		.body("category",everyItem(equalTo("electronics")))
-		.log().body();
+		.body("category",everyItem(equalTo("electronics")));
+		//.log().body();
 	}
 
 
+	//8)To Test a Add New Product
+	@Test()
+	public void testAddNewProduct()
+	{   
+		Product newProduct=Payload.productPayload();
+
+		int productId=given()
+				.contentType(ContentType.JSON)
+				.body(newProduct)
+				.when()
+				.post(Routes.CREATE_PRODUCT)
+
+				.then()
+				.statusCode(200)
+				//.log().body()
+				.body("title", equalTo(newProduct.getTitle()))
+				.body("id",notNullValue())
+				.extract().jsonPath().getInt("id"); //Extracting Id from response body
+
+		System.out.println("ProductId:"+productId);
+
+	}
+
+	//9)To Test update existing product id 
+	@Test()
+	public void testUpdateProduct()
+	{   
+		int productId =configReader.getIntProperty("productId");
+
+		Product updatedPayload=Payload.productPayload();
+
+		given()
+		.pathParam("id",productId)
+		.contentType(ContentType.JSON)
+		.body(updatedPayload)
+		.when()
+		.put(Routes.UPDATE_PRODUCT)
+
+		.then()
+		.statusCode(200)
+		//.log().body()
+		.body("title", equalTo(updatedPayload.getTitle()))
+		.body("id",notNullValue());
+
+	}
+
+		//10)To Test delete existing product id 
+		@Test()
+		public void testDeleteProduct()
+		{   
+			int productId =configReader.getIntProperty("productId");
 
 
-}
+
+			given()
+			.pathParam("id",productId)
+			.contentType(ContentType.JSON)
+
+			.when()
+			.delete(Routes.DELETE_PRODUCT)
+
+			.then()
+			.statusCode(200);
+		}
+		
+	}		
