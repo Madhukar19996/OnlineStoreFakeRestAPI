@@ -22,9 +22,9 @@ public class Payload {
 		String description=faker.lorem().sentence();
 		String imageUrl="https://i.pravatar.cc/100";
 		String category=categories[random.nextInt(categories.length)];
-		int id = random.nextInt(1000); // You can generate a random id or use any logic
+		//int id = random.nextInt(1000); // You can generate a random id or use any logic
 		
-		return new Product (id,name,price, description, imageUrl,category);
+		return new Product (name,price, description, imageUrl,category);
 		
 		
 	}

@@ -1,57 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-19T11:04:53 IST" name="Default suite" finished-at="2025-07-19T11:05:14 IST" duration-ms="21464">
+  <suite started-at="2025-07-19T21:39:17 IST" name="Default suite" finished-at="2025-07-19T21:39:33 IST" duration-ms="15549">
     <groups>
     </groups>
-    <test started-at="2025-07-19T11:04:53 IST" name="Default test" finished-at="2025-07-19T11:05:14 IST" duration-ms="21464">
-      <class name="testcases.ProductTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.ProductTest@12591ac8]" started-at="2025-07-19T11:04:53 IST" name="setup" finished-at="2025-07-19T11:04:53 IST" duration-ms="522" status="PASS">
+    <test started-at="2025-07-19T21:39:17 IST" name="Default test" finished-at="2025-07-19T21:39:33 IST" duration-ms="15549">
+      <class name="testcases.ProductDataDrivenTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.ProductDataDrivenTest@66ea810]" started-at="2025-07-19T21:39:18 IST" name="setup" finished-at="2025-07-19T21:39:18 IST" duration-ms="508" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testAddNewProduct()[pri:0, instance:testcases.ProductTest@12591ac8]" started-at="2025-07-19T11:04:53 IST" name="testAddNewProduct" finished-at="2025-07-19T11:04:58 IST" duration-ms="4616" status="PASS">
+        <test-method signature="testAddNewProduct(java.util.Map)[pri:0, instance:testcases.ProductDataDrivenTest@66ea810]" started-at="2025-07-19T21:39:18 IST" name="testAddNewProduct" data-provider="jsonDataProvider" finished-at="2025-07-19T21:39:24 IST" duration-ms="5286" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{id=22, title=USB-C Charging Cable, price=14.99, description=Durable 1.5m fast charging USB-C to USB-A cable., image=https://i.pravatar.cc/200, category=accessories}]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddNewProduct -->
-        <test-method signature="testDeleteProduct()[pri:0, instance:testcases.ProductTest@12591ac8]" started-at="2025-07-19T11:04:58 IST" name="testDeleteProduct" finished-at="2025-07-19T11:05:00 IST" duration-ms="2514" status="PASS">
+        <test-method signature="testAddNewProduct(java.util.Map)[pri:0, instance:testcases.ProductDataDrivenTest@66ea810]" started-at="2025-07-19T21:39:24 IST" name="testAddNewProduct" data-provider="jsonDataProvider" finished-at="2025-07-19T21:39:26 IST" duration-ms="2166" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{id=23, title=LED Desk Lamp, price=32.50, description=Touch-controlled lamp with adjustable brightness and color., image=https://i.pravatar.cc/201, category=home-office}]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDeleteProduct -->
-        <test-method signature="testGetAllCategories()[pri:0, instance:testcases.ProductTest@12591ac8]" started-at="2025-07-19T11:05:01 IST" name="testGetAllCategories" finished-at="2025-07-19T11:05:02 IST" duration-ms="1073" status="PASS">
+        </test-method> <!-- testAddNewProduct -->
+        <test-method signature="testAddNewProduct(java.util.Map)[pri:0, instance:testcases.ProductDataDrivenTest@66ea810]" started-at="2025-07-19T21:39:26 IST" name="testAddNewProduct" data-provider="jsonDataProvider" finished-at="2025-07-19T21:39:28 IST" duration-ms="2548" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{id=24, title=4K HDMI Cable, price=19.99, description=High-speed HDMI cable supporting 4K resolution and HDR., image=https://i.pravatar.cc/202, category=cables}]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testGetAllCategories -->
-        <test-method signature="testGetAllProducts()[pri:0, instance:testcases.ProductTest@12591ac8]" started-at="2025-07-19T11:05:02 IST" name="testGetAllProducts" finished-at="2025-07-19T11:05:02 IST" duration-ms="662" status="PASS">
+        </test-method> <!-- testAddNewProduct -->
+        <test-method signature="testAddNewProduct(java.util.Map)[pri:0, instance:testcases.ProductDataDrivenTest@66ea810]" started-at="2025-07-19T21:39:28 IST" name="testAddNewProduct" data-provider="jsonDataProvider" finished-at="2025-07-19T21:39:31 IST" duration-ms="2347" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{id=25, title=Laptop Stand, price=28.95, description=Aluminum adjustable laptop stand for desk ergonomics., image=https://i.pravatar.cc/203, category=office-supplies}]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testGetAllProducts -->
-        <test-method signature="testGetLimitedProducts()[pri:0, instance:testcases.ProductTest@12591ac8]" started-at="2025-07-19T11:05:02 IST" name="testGetLimitedProducts" finished-at="2025-07-19T11:05:04 IST" duration-ms="1557" status="PASS">
+        </test-method> <!-- testAddNewProduct -->
+        <test-method signature="testAddNewProduct(java.util.Map)[pri:0, instance:testcases.ProductDataDrivenTest@66ea810]" started-at="2025-07-19T21:39:31 IST" name="testAddNewProduct" data-provider="jsonDataProvider" finished-at="2025-07-19T21:39:33 IST" duration-ms="2242" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{id=26, title=Wireless Charger Pad, price=22.49, description=Qi-certified fast wireless charging pad for smartphones., image=https://i.pravatar.cc/204, category=charging-devices}]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testGetLimitedProducts -->
-        <test-method signature="testGetProductByID()[pri:0, instance:testcases.ProductTest@12591ac8]" started-at="2025-07-19T11:05:04 IST" name="testGetProductByID" finished-at="2025-07-19T11:05:05 IST" duration-ms="1584" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testGetProductByID -->
-        <test-method signature="testGetProductsByCategory()[pri:0, instance:testcases.ProductTest@12591ac8]" started-at="2025-07-19T11:05:05 IST" name="testGetProductsByCategory" finished-at="2025-07-19T11:05:07 IST" duration-ms="1480" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testGetProductsByCategory -->
-        <test-method signature="testGetSortedProducts()[pri:0, instance:testcases.ProductTest@12591ac8]" started-at="2025-07-19T11:05:07 IST" name="testGetSortedProducts" finished-at="2025-07-19T11:05:11 IST" duration-ms="3654" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testGetSortedProducts -->
-        <test-method signature="testGetSortedProductsASC()[pri:0, instance:testcases.ProductTest@12591ac8]" started-at="2025-07-19T11:05:11 IST" name="testGetSortedProductsASC" finished-at="2025-07-19T11:05:13 IST" duration-ms="2127" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testGetSortedProductsASC -->
-        <test-method signature="testUpdateProduct()[pri:0, instance:testcases.ProductTest@12591ac8]" started-at="2025-07-19T11:05:13 IST" name="testUpdateProduct" finished-at="2025-07-19T11:05:14 IST" duration-ms="1462" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testUpdateProduct -->
-      </class> <!-- testcases.ProductTest -->
+        </test-method> <!-- testAddNewProduct -->
+      </class> <!-- testcases.ProductDataDrivenTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

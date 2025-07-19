@@ -9,8 +9,8 @@ public class Product {
 	private String image;
 
 	// Constructor
-	public Product( int id,String title, double price, String description, String category, String image) {
-		this.id = id;
+	public Product(String title, double price, String description, String category, String image) {
+		//this.id = id;
 		this.title = title;
 		this.price = price;
 		this.description = description;
@@ -18,15 +18,16 @@ public class Product {
 		this.image = image;
 	}
 
+
 	// Getters and Setters
-	public int getId() {
+	/*public int getId() {
 		return id;
 	}
 
 	public void setId(int id) {
 		this.id = id;
 	}
-	
+	*/
 
 	public String getTitle() {
 		return title;
