@@ -1,355 +1,40 @@
-Request method:	POST
-Request URI:	https://fakestoreapi.com/products
+Request method:	DELETE
+Request URI:	https://fakestoreapi.com/products/1
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
-Path params:	<none>
+Path params:	id=1
 Headers:		Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
-Body:
-{
-    "title": "USB-C Charging Cable",
-    "price": 14.99,
-    "description": "Durable 1.5m fast charging USB-C to USB-A cable.",
-    "category": "accessories",
-    "image": "https://i.pravatar.cc/200"
-}
-HTTP/1.1 200 OK
-Date: Sat, 19 Jul 2025 16:09:21 GMT
-Content-Type: application/json; charset=utf-8
-Transfer-Encoding: chunked
-Connection: keep-alive
-Access-Control-Allow-Origin: *
-Etag: W/"b4-LpAkb7HxqYGXKne0Zg3qhAmup6A"
-X-Powered-By: Express
-Cf-Cache-Status: DYNAMIC
-Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=fqgXta90swumnlAf2mWdGJO0FV037xm3uhydevN4q0CmTP3GMqfqiEDStnkVgv8VPbdbuWJ6RzNDWaEifPcB1U5rsJP8FnVXNV8czhUP"}]}
-Content-Encoding: gzip
-Server: cloudflare
-CF-RAY: 961b7b94497f3394-MRS
-alt-svc: h3=":443"; ma=86400
-
-{
-    "id": 21,
-    "title": "USB-C Charging Cable",
-    "price": 14.99,
-    "description": "Durable 1.5m fast charging USB-C to USB-A cable.",
-    "image": "https://i.pravatar.cc/200",
-    "category": "accessories"
-}
-Request method:	DELETE
-Request URI:	https://fakestoreapi.com/products/21
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	id=21
-Headers:		Accept=*/*
-Cookies:		<none>
-Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Sat, 19 Jul 2025 16:09:23 GMT
+Date: Sun, 20 Jul 2025 01:51:07 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
 Access-Control-Allow-Origin: *
-Etag: W/"4-K+iMpCQsduglOsYkdIUQZQMtaDM"
+Etag: W/"16c-MMdrqY6N0sTiefLdsgtBej9eunY"
 X-Powered-By: Express
 Cf-Cache-Status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=KcMBrIL845RHbCXIcsIvwsTtyzIHLHlCCcI82NAfk2K9FSmS3qDtzDrUo5qp8hEjtUsgkf6X9Etn5BS5qkpw2ueYvDwypGRXuHI5mnWvS9k%3D"}]}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=tNbx88VDV1pF%2Brfgi3Sq01VtLy1GH%2FmroaVE%2BvchNHMGMgj3pVuggbyiY3Ge0w509hntI2hyxzZYRloB0pErc3aTEqHT2CiA5cx0vgT2mdw%3D"}]}
 Content-Encoding: gzip
 Server: cloudflare
-CF-RAY: 961b7b9fe892e1c4-MRS
-alt-svc: h3=":443"; ma=86400
-
-null
-Request method:	POST
-Request URI:	https://fakestoreapi.com/products
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "title": "LED Desk Lamp",
-    "price": 32.5,
-    "description": "Touch-controlled lamp with adjustable brightness and color.",
-    "category": "home-office",
-    "image": "https://i.pravatar.cc/201"
-}
-HTTP/1.1 200 OK
-Date: Sat, 19 Jul 2025 16:09:24 GMT
-Content-Type: application/json; charset=utf-8
-Transfer-Encoding: chunked
-Connection: keep-alive
-Access-Control-Allow-Origin: *
-Etag: W/"b7-0fiA2WEkjrF9RtL3tXvJB5f+NSk"
-X-Powered-By: Express
-Cf-Cache-Status: DYNAMIC
-Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=MJg7R3vffkYLQL6BSX4fxBihCzKz7AYexwvKbcAPG2uB02UPtWBI8twXS3QD%2FCDJZQMOevoRHIImoHhFJvO8gppnuN0rC8YmE40jKlzpAes%3D"}]}
-Content-Encoding: gzip
-Server: cloudflare
-CF-RAY: 961b7baacba4e281-MRS
+CF-RAY: 961ecfc778b04337-EWR
 alt-svc: h3=":443"; ma=86400
 
 {
-    "id": 21,
-    "title": "LED Desk Lamp",
-    "price": 32.5,
-    "description": "Touch-controlled lamp with adjustable brightness and color.",
-    "image": "https://i.pravatar.cc/201",
-    "category": "home-office"
+    "id": 1,
+    "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+    "price": 109.95,
+    "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+    "category": "men's clothing",
+    "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+    "rating": {
+        "rate": 3.9,
+        "count": 120
+    }
 }
-Request method:	DELETE
-Request URI:	https://fakestoreapi.com/products/21
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	id=21
-Headers:		Accept=*/*
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-HTTP/1.1 200 OK
-Date: Sat, 19 Jul 2025 16:09:26 GMT
-Content-Type: application/json; charset=utf-8
-Transfer-Encoding: chunked
-Connection: keep-alive
-Access-Control-Allow-Origin: *
-Etag: W/"4-K+iMpCQsduglOsYkdIUQZQMtaDM"
-X-Powered-By: Express
-Cf-Cache-Status: DYNAMIC
-Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=vAPiNkYak46hjZIvRssBnMUMzEcdpNPwfRPYOrhGkFY59SCxY8XgDOK5w53sPHu2PE5%2B2B0at9zTXU5iyPVIQ5SCZerM38TYpn7IqQNXdvI%3D"}]}
-Content-Encoding: gzip
-Server: cloudflare
-CF-RAY: 961b7bb1294ce22f-MRS
-alt-svc: h3=":443"; ma=86400
-
-null
-Request method:	POST
-Request URI:	https://fakestoreapi.com/products
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "title": "4K HDMI Cable",
-    "price": 19.99,
-    "description": "High-speed HDMI cable supporting 4K resolution and HDR.",
-    "category": "cables",
-    "image": "https://i.pravatar.cc/202"
-}
-HTTP/1.1 200 OK
-Date: Sat, 19 Jul 2025 16:09:27 GMT
-Content-Type: application/json; charset=utf-8
-Transfer-Encoding: chunked
-Connection: keep-alive
-Access-Control-Allow-Origin: *
-Etag: W/"af-kj2nV7aH/r0E1VX//atyo4HACkQ"
-X-Powered-By: Express
-Cf-Cache-Status: DYNAMIC
-Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=WKBA8S%2B6Zx9zc62Tn3fIllMXd5CoxrXJUid7BbY%2BMcj7mu9LBNUxd52I989ONv245FI8T%2BoGZLyfsfgg%2BZouQZe%2BQWnKkIOhENRJSKfN"}]}
-Content-Encoding: gzip
-Server: cloudflare
-CF-RAY: 961b7bb8eafb57f8-MRS
-alt-svc: h3=":443"; ma=86400
-
-{
-    "id": 21,
-    "title": "4K HDMI Cable",
-    "price": 19.99,
-    "description": "High-speed HDMI cable supporting 4K resolution and HDR.",
-    "image": "https://i.pravatar.cc/202",
-    "category": "cables"
-}
-Request method:	DELETE
-Request URI:	https://fakestoreapi.com/products/21
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	id=21
-Headers:		Accept=*/*
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-HTTP/1.1 200 OK
-Date: Sat, 19 Jul 2025 16:09:28 GMT
-Content-Type: application/json; charset=utf-8
-Transfer-Encoding: chunked
-Connection: keep-alive
-Access-Control-Allow-Origin: *
-Etag: W/"4-K+iMpCQsduglOsYkdIUQZQMtaDM"
-X-Powered-By: Express
-Cf-Cache-Status: DYNAMIC
-Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=meJoAJ3nBLpQoEEWRuQmemMAEczuP4ATBw7ZaV0pJwbqdepd7LXa%2F07TUHiFhthhxXjXRzCGwOUSAaMY1Jh8hN4ti3AngqNXFOPb9uo9jV4%3D"}]}
-Content-Encoding: gzip
-Server: cloudflare
-CF-RAY: 961b7bc148f0e242-MRS
-alt-svc: h3=":443"; ma=86400
-
-null
-Request method:	POST
-Request URI:	https://fakestoreapi.com/products
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "title": "Laptop Stand",
-    "price": 28.95,
-    "description": "Aluminum adjustable laptop stand for desk ergonomics.",
-    "category": "office-supplies",
-    "image": "https://i.pravatar.cc/203"
-}
-HTTP/1.1 200 OK
-Date: Sat, 19 Jul 2025 16:09:29 GMT
-Content-Type: application/json; charset=utf-8
-Transfer-Encoding: chunked
-Connection: keep-alive
-Access-Control-Allow-Origin: *
-Etag: W/"b5-ekCnXjK66rOTiGdMirmFbF9OYIw"
-X-Powered-By: Express
-Cf-Cache-Status: DYNAMIC
-Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=GhS%2BhBBSYkSjukkbg06vdSbJZVUSHdHMZr5svyvbJj0tBOSGePbgDvuMACcbQHrsLTWFfZZESVerVhBGVjiXEbeINNc4xuMmo%2Fsskra9"}]}
-Content-Encoding: gzip
-Server: cloudflare
-CF-RAY: 961b7bc8e82c1222-MRS
-alt-svc: h3=":443"; ma=86400
-
-{
-    "id": 21,
-    "title": "Laptop Stand",
-    "price": 28.95,
-    "description": "Aluminum adjustable laptop stand for desk ergonomics.",
-    "image": "https://i.pravatar.cc/203",
-    "category": "office-supplies"
-}
-Request method:	DELETE
-Request URI:	https://fakestoreapi.com/products/21
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	id=21
-Headers:		Accept=*/*
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-HTTP/1.1 200 OK
-Date: Sat, 19 Jul 2025 16:09:30 GMT
-Content-Type: application/json; charset=utf-8
-Transfer-Encoding: chunked
-Connection: keep-alive
-Access-Control-Allow-Origin: *
-Etag: W/"4-K+iMpCQsduglOsYkdIUQZQMtaDM"
-X-Powered-By: Express
-Cf-Cache-Status: DYNAMIC
-Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=6Bqex0Pe5wg4Z4%2F4v4dYgHAs%2FpXm5dGwlGwX8HIJTB9iUWUYyw%2FaMe0IxB2HqvgOPuLPsJMCJLzn5aHjZ%2FrvE5H3HD%2FkZxn6r0yK89AysMo%3D"}]}
-Content-Encoding: gzip
-Server: cloudflare
-CF-RAY: 961b7bcf5d5e9b0d-MRS
-alt-svc: h3=":443"; ma=86400
-
-null
-Request method:	POST
-Request URI:	https://fakestoreapi.com/products
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "title": "Wireless Charger Pad",
-    "price": 22.49,
-    "description": "Qi-certified fast wireless charging pad for smartphones.",
-    "category": "charging-devices",
-    "image": "https://i.pravatar.cc/204"
-}
-HTTP/1.1 200 OK
-Date: Sat, 19 Jul 2025 16:09:32 GMT
-Content-Type: application/json; charset=utf-8
-Transfer-Encoding: chunked
-Connection: keep-alive
-Access-Control-Allow-Origin: *
-Etag: W/"c1-cBeFWWGXVZh3BBpKE3U681xYyE4"
-X-Powered-By: Express
-Cf-Cache-Status: DYNAMIC
-Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=A2Lii%2BANOBwVjOkNIatJH8zL8fC1nQCexgyTTMuokIHFcUaVRaokQkvOZUrcHL5OUs2iFM%2FmCTQI88142XE%2B5OOPo1r%2BzsVKCLv0oKFdb8Q%3D"}]}
-Content-Encoding: gzip
-Server: cloudflare
-CF-RAY: 961b7bd6e8a1e1d8-MRS
-alt-svc: h3=":443"; ma=86400
-
-{
-    "id": 21,
-    "title": "Wireless Charger Pad",
-    "price": 22.49,
-    "description": "Qi-certified fast wireless charging pad for smartphones.",
-    "image": "https://i.pravatar.cc/204",
-    "category": "charging-devices"
-}
-Request method:	DELETE
-Request URI:	https://fakestoreapi.com/products/21
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	id=21
-Headers:		Accept=*/*
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-HTTP/1.1 200 OK
-Date: Sat, 19 Jul 2025 16:09:33 GMT
-Content-Type: application/json; charset=utf-8
-Transfer-Encoding: chunked
-Connection: keep-alive
-Access-Control-Allow-Origin: *
-Etag: W/"4-K+iMpCQsduglOsYkdIUQZQMtaDM"
-X-Powered-By: Express
-Cf-Cache-Status: DYNAMIC
-Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=QSb1HPDWBCWQ4xrXTd%2FwF5xoFWKO8zuPhz%2BxigEgG%2FmjRGYKY4OzZKWSOkAV5vmb6I%2BOW%2BmeQLJR1GumA34fHP897YpguScS9eoA6uQG8uQ%3D"}]}
-Content-Encoding: gzip
-Server: cloudflare
-CF-RAY: 961b7bddf92ee20c-MRS
-alt-svc: h3=":443"; ma=86400
-
-null
