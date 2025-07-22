@@ -1,21 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-20T07:21:04 IST" name="Failed suite [API TestSuite]" finished-at="2025-07-20T07:21:08 IST" duration-ms="3958">
+  <suite started-at="2025-07-22T09:36:05 IST" name="Default suite" finished-at="2025-07-22T09:36:12 IST" duration-ms="7218">
     <groups>
     </groups>
-    <test started-at="2025-07-20T07:21:04 IST" name="API Tests(failed)" finished-at="2025-07-20T07:21:08 IST" duration-ms="3958">
-      <class name="testcases.ProductTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.ProductTest@3e0e1046]" started-at="2025-07-20T07:21:04 IST" name="setup" finished-at="2025-07-20T07:21:05 IST" duration-ms="475" status="PASS">
+    <test started-at="2025-07-22T09:36:05 IST" name="Default test" finished-at="2025-07-22T09:36:12 IST" duration-ms="7218">
+      <class name="testcases.UserTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.UserTests@f68f0dc]" started-at="2025-07-22T09:36:05 IST" name="setup" finished-at="2025-07-22T09:36:05 IST" duration-ms="457" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testDeleteProduct()[pri:0, instance:testcases.ProductTest@3e0e1046]" started-at="2025-07-20T07:21:05 IST" name="testDeleteProduct" finished-at="2025-07-20T07:21:08 IST" duration-ms="3132" status="PASS">
+        <test-method signature="testCreateUser()[pri:0, instance:testcases.UserTests@f68f0dc]" started-at="2025-07-22T09:36:05 IST" name="testCreateUser" finished-at="2025-07-22T09:36:10 IST" duration-ms="4410" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDeleteProduct -->
-      </class> <!-- testcases.ProductTest -->
-    </test> <!-- API Tests(failed) -->
-  </suite> <!-- Failed suite [API TestSuite] -->
+        </test-method> <!-- testCreateUser -->
+        <test-method signature="testDeleteUser()[pri:0, instance:testcases.UserTests@f68f0dc]" started-at="2025-07-22T09:36:10 IST" name="testDeleteUser" finished-at="2025-07-22T09:36:11 IST" duration-ms="1169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUser -->
+        <test-method signature="testUpdateUser()[pri:0, instance:testcases.UserTests@f68f0dc]" started-at="2025-07-22T09:36:11 IST" name="testUpdateUser" finished-at="2025-07-22T09:36:12 IST" duration-ms="1013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUser -->
+      </class> <!-- testcases.UserTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

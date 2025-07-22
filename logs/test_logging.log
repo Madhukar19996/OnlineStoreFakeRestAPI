@@ -1,5 +1,106 @@
+Request method:	POST
+Request URI:	https://fakestoreapi.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 241,
+    "username": "salvador.hahn",
+    "password": "j4pq84yi",
+    "email": "eugenio.bartell@gmail.com",
+    "name": {
+        "firstname": "Myong",
+        "lastname": "Zieme"
+    },
+    "address": {
+        "city": "North Galenburgh",
+        "street": "Weissnat Turnpike",
+        "number": 78,
+        "zipcode": "53951-0581",
+        "geolocation": {
+            "lat": "-84.374830",
+            "lng": "136.18416"
+        }
+    },
+    "phone": "642-616-6099"
+}
+HTTP/1.1 200 OK
+Date: Tue, 22 Jul 2025 04:06:08 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"8-h5EdGu1QmHe4OkjsU292jNzSLfE"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=uvIATWFzvU3tIFRcYvkF%2B073NNigmeJlgZ3WOr3FPyngkYyMlwP1edkKekN3yVUthAHBNs83uU5bbMTxmp%2F50sTPdrs1rQedweOnlq9Y2aY%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 96301049ee5e797f-SIN
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 1
+}
 Request method:	DELETE
-Request URI:	https://fakestoreapi.com/products/1
+Request URI:	https://fakestoreapi.com/users/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=1
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 22 Jul 2025 04:06:10 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"120-HNMhv14aQeBJetA9fBvavCZ+gdk"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=mrYmNvGjiicH63P1bMXK4MAuf2zNbBDJCpJP4LX84KhM1DPJDnr1grOu7qGa8nQ1D8CoQ%2FwrXq4bObWJg%2F8lN6%2BRpl7HFUJPJb1NK9kse%2F8%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 9630105809b2a8eb-SIN
+alt-svc: h3=":443"; ma=86400
+
+{
+    "address": {
+        "geolocation": {
+            "lat": "-37.3159",
+            "long": "81.1496"
+        },
+        "city": "kilcoole",
+        "street": "new road",
+        "number": 7682,
+        "zipcode": "12926-3874"
+    },
+    "id": 1,
+    "email": "john@gmail.com",
+    "username": "johnd",
+    "password": "m38rmF$",
+    "name": {
+        "firstname": "john",
+        "lastname": "doe"
+    },
+    "phone": "1-570-236-7033",
+    "__v": 0
+}
+Request method:	PUT
+Request URI:	https://fakestoreapi.com/users/1
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -9,32 +110,62 @@ Headers:		Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
-Body:			<none>
+Body:
+{
+    "id": 608,
+    "username": "dane.lemke",
+    "password": "lumicjw5z68v",
+    "email": "minh.ernser@hotmail.com",
+    "name": {
+        "firstname": "Eilene",
+        "lastname": "Ward"
+    },
+    "address": {
+        "city": "North Todd",
+        "street": "Jonna Canyon",
+        "number": 89,
+        "zipcode": "03134",
+        "geolocation": {
+            "lat": "-65.010997",
+            "lng": "165.52401"
+        }
+    },
+    "phone": "142-215-9202"
+}
 HTTP/1.1 200 OK
-Date: Sun, 20 Jul 2025 01:51:07 GMT
+Date: Tue, 22 Jul 2025 04:06:11 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
 Access-Control-Allow-Origin: *
-Etag: W/"16c-MMdrqY6N0sTiefLdsgtBej9eunY"
+Etag: W/"130-HRo+jEiny5CIb7ayIASpa4szQwk"
 X-Powered-By: Express
 Cf-Cache-Status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=tNbx88VDV1pF%2Brfgi3Sq01VtLy1GH%2FmroaVE%2BvchNHMGMgj3pVuggbyiY3Ge0w509hntI2hyxzZYRloB0pErc3aTEqHT2CiA5cx0vgT2mdw%3D"}]}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=GldwyT56DMSFlNUzOF%2FAFGYfFks1s9KIFHFDZxXUGcuRv6hatjE%2Fii1MGfvd2u7O5yywVEwxnznYAeADQ1uWIKh0F4HWs%2BlzdUDephwRrbQ%3D"}]}
 Content-Encoding: gzip
 Server: cloudflare
-CF-RAY: 961ecfc778b04337-EWR
+CF-RAY: 9630105edce63e26-SIN
 alt-svc: h3=":443"; ma=86400
 
 {
-    "id": 1,
-    "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
-    "price": 109.95,
-    "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
-    "category": "men's clothing",
-    "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
-    "rating": {
-        "rate": 3.9,
-        "count": 120
-    }
+    "id": 608,
+    "username": "dane.lemke",
+    "password": "lumicjw5z68v",
+    "email": "minh.ernser@hotmail.com",
+    "name": {
+        "firstname": "Eilene",
+        "lastname": "Ward"
+    },
+    "address": {
+        "city": "North Todd",
+        "street": "Jonna Canyon",
+        "number": 89,
+        "zipcode": "03134",
+        "geolocation": {
+            "lat": "-65.010997",
+            "lng": "165.52401"
+        }
+    },
+    "phone": "142-215-9202"
 }
