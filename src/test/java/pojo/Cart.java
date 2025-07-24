@@ -3,39 +3,39 @@ package pojo;
 import java.util.List;
 
 public class Cart {
-	private int id;
-	private int userId;
-	private List<Product> products;
+    private int userId;
+    private String date; // considering date is String
+    private List<CartProduct> products;
 
-	// Constructor
-	public Cart (int id, int userId, List<Product> products) {
-		this.id = id;
-		this.userId = userId;
-		this.products = products;
-	}
+    // Constructor
+    public Cart(int userId, String date, List<CartProduct> products) {
+        this.userId = userId;
+        this.date = date;
+        this.products = products;
+    }
 
-	// Getters and Setters
-	public int getId() {
-		return id;
-	}
+    // Getters and Setters
+    public int getUserId() {
+        return userId;
+    }
 
-	public void setId(int id) {
-		this.id = id;
-	}
+    public void setUserId(int userId) {
+        this.userId = userId;
+    }
 
-	public int getUserId() {
-		return userId;
-	}
+    public String getDate() {
+        return date;
+    }
 
-	public void setUserId(int userId) {
-		this.userId = userId;
-	}
+    public void setDate(String date) {
+        this.date = date;
+    }
 
-	public List<Product> getProducts() {
-		return products;
-	}
+    public List<CartProduct> getProducts() {
+        return products;
+    }
 
-	public void setProducts(List<Product> products) {
-		this.products = products;
-	}
+    public void setProducts(List<CartProduct> products) {
+        this.products = products;
+    }
 }

@@ -32,6 +32,7 @@ public class Routes {
     public static final String GET_CART_BY_ID = "/carts/{id}";
     public static final String GET_CARTS_BY_DATE_RANGE = "/carts?startdate={startdate}&enddate={enddate}";
     public static final String GET_USER_CART = "/carts/user/{userId}";
+    public static final String GET_USER_CART_BY_DATE_RANGE="/carts/user/{userId}?startdate={startdate}&enddate={enddate}";
     public static final String GET_CARTS_WITH_LIMIT = "/carts?limit={limit}";
     public static final String GET_CARTS_SORTED = "/carts?sort={order}";
     public static final String CREATE_CART = "/carts";

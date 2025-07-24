@@ -22,7 +22,7 @@ public class UserTests extends Baseclass {
 
 
 	//1) Fetch all the users 
-	//@Test()
+	@Test()
 	public void testGetAllUsers()
 	{
 		given()
@@ -38,7 +38,7 @@ public class UserTests extends Baseclass {
 
 
 	//2) Test to fetch a specific User by Id
-	//@Test()
+	@Test()
 	public void testGetUserById()
 	{
 
@@ -56,7 +56,7 @@ public class UserTests extends Baseclass {
 
 
 	//3) Test to fetch a limited number of users
-	//@Test()
+	@Test()
 	public void testGetUserswithLimit()
 	{
 
@@ -75,7 +75,7 @@ public class UserTests extends Baseclass {
 
 
 	//4) Test to fetch users sorted in descending order
-	//@Test()
+	@Test()
 	public void  testGetUsersSorted()
 	{
 
@@ -99,7 +99,7 @@ public class UserTests extends Baseclass {
 	}
 
 	//5) Test to fetch users sorted in ascending order
-	//@Test()
+	@Test()
 	public void  testGetUsersSortedAsc()
 	{
 
