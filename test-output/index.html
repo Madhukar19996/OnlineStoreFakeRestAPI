@@ -55,7 +55,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-API_TestSuite" class="navigator-link ">
-                    <span class="test-stats">3 tests</span>
+                    <span class="test-stats">5 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">29 methods,   29 passed</span>
+                    <span class="method-stats">34 methods,   34 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,7 +103,17 @@
                     <div class="method-list-content passed suite-API_TestSuite">
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_TestSuite" title="testcases.SchemaTests" class="method navigator-link" hash-for-method="tesUserSchema">tesUserSchema</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-API_TestSuite" title="testcases.ProductTest" class="method navigator-link" hash-for-method="testAddNewProduct">testAddNewProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_TestSuite" title="testcases.SchemaTests" class="method navigator-link" hash-for-method="testCartSchema">testCartSchema</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -233,6 +243,16 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_TestSuite" title="testcases.LoginTests" class="method navigator-link" hash-for-method="testInvalidUserLogin">testInvalidUserLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_TestSuite" title="testcases.SchemaTests" class="method navigator-link" hash-for-method="testProductSchema">testProductSchema</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-API_TestSuite" title="testcases.CartTests" class="method navigator-link" hash-for-method="testUpdateCart">testUpdateCart</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -244,6 +264,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-API_TestSuite" title="testcases.UserTests" class="method navigator-link" hash-for-method="testUpdateUser">testUpdateUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_TestSuite" title="testcases.LoginTests" class="method navigator-link" hash-for-method="testValidUserLogin">testValidUserLogin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-API_TestSuite -->
@@ -258,6 +283,35 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-API_TestSuite" class="panel API_TestSuite">
+          <div class="suite-API_TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.SchemaTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tesUserSchema">
+                  </a> <!-- tesUserSchema -->
+                  <span class="method-name">tesUserSchema</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCartSchema">
+                  </a> <!-- testCartSchema -->
+                  <span class="method-name">testCartSchema</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProductSchema">
+                  </a> <!-- testProductSchema -->
+                  <span class="method-name">testProductSchema</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-API_TestSuite-class-passed -->
           <div class="suite-API_TestSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -485,6 +539,28 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-API_TestSuite-class-passed -->
+          <div class="suite-API_TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.LoginTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidUserLogin">
+                  </a> <!-- testInvalidUserLogin -->
+                  <span class="method-name">testInvalidUserLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidUserLogin">
+                  </a> <!-- testValidUserLogin -->
+                  <span class="method-name">testValidUserLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-API_TestSuite-class-passed -->
         </div> <!-- panel API_TestSuite -->
         <div panel-name="test-xml-API_TestSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -494,25 +570,35 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;API TestSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;API TestSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;utils.ExtentReporter&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Product Tests&quot;&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Product Tests&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testcases.ProductTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Product Tests --&gt;
-  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;User Tests&quot;&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;User Tests&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testcases.UserTests&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- User Tests --&gt;
-  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Cart Tests&quot;&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Cart Tests&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testcases.CartTests&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Cart Tests --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Auth Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.LoginTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Auth Tests --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Schema Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.SchemaTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Schema Tests --&gt;
 &lt;/suite&gt; &lt;!-- API TestSuite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -531,6 +617,12 @@
               </li>
               <li>
                 <span class="test-name">Cart Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Auth Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Schema Tests (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -556,128 +648,148 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(29);
+data.addRows(34);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testCreateCart')
-data.setCell(0, 2, 'testcases.CartTests')
-data.setCell(0, 3, 4387);
+data.setCell(0, 1, 'testAddNewProduct')
+data.setCell(0, 2, 'testcases.ProductTest')
+data.setCell(0, 3, 5900);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testCreateUser')
 data.setCell(1, 2, 'testcases.UserTests')
-data.setCell(1, 3, 4384);
+data.setCell(1, 3, 4432);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testAddNewProduct')
-data.setCell(2, 2, 'testcases.ProductTest')
-data.setCell(2, 3, 4378);
+data.setCell(2, 1, 'testProductSchema')
+data.setCell(2, 2, 'testcases.SchemaTests')
+data.setCell(2, 3, 4183);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testGetAllProducts')
-data.setCell(3, 2, 'testcases.ProductTest')
-data.setCell(3, 3, 1592);
+data.setCell(3, 1, 'testGetUserswithLimit')
+data.setCell(3, 2, 'testcases.UserTests')
+data.setCell(3, 3, 3711);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'testDeleteUser')
-data.setCell(4, 2, 'testcases.UserTests')
-data.setCell(4, 3, 1548);
+data.setCell(4, 1, 'testCartSchema')
+data.setCell(4, 2, 'testcases.SchemaTests')
+data.setCell(4, 3, 2907);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'testDeleteProduct')
-data.setCell(5, 2, 'testcases.ProductTest')
-data.setCell(5, 3, 1528);
+data.setCell(5, 1, 'testUpdateUser')
+data.setCell(5, 2, 'testcases.UserTests')
+data.setCell(5, 3, 2705);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'testDeleteCart')
+data.setCell(6, 1, 'testGetCartById')
 data.setCell(6, 2, 'testcases.CartTests')
-data.setCell(6, 3, 1526);
+data.setCell(6, 3, 2699);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'testGetCartById')
-data.setCell(7, 2, 'testcases.CartTests')
-data.setCell(7, 3, 1497);
+data.setCell(7, 1, 'testGetProductsByCategory')
+data.setCell(7, 2, 'testcases.ProductTest')
+data.setCell(7, 3, 2696);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'testGetCartsSorted')
+data.setCell(8, 1, 'testGetUserCart')
 data.setCell(8, 2, 'testcases.CartTests')
-data.setCell(8, 3, 1487);
+data.setCell(8, 3, 2424);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'testGetUsersSortedAsc')
-data.setCell(9, 2, 'testcases.UserTests')
-data.setCell(9, 3, 1458);
+data.setCell(9, 1, 'testUpdateCart')
+data.setCell(9, 2, 'testcases.CartTests')
+data.setCell(9, 3, 2396);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'testGetProductsByCategory')
-data.setCell(10, 2, 'testcases.ProductTest')
-data.setCell(10, 3, 1454);
+data.setCell(10, 1, 'testInvalidUserLogin')
+data.setCell(10, 2, 'testcases.LoginTests')
+data.setCell(10, 3, 1977);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'testGetAllUsers')
-data.setCell(11, 2, 'testcases.UserTests')
-data.setCell(11, 3, 1395);
+data.setCell(11, 1, 'tesUserSchema')
+data.setCell(11, 2, 'testcases.SchemaTests')
+data.setCell(11, 3, 1956);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'testGetProductByID')
-data.setCell(12, 2, 'testcases.ProductTest')
-data.setCell(12, 3, 1385);
+data.setCell(12, 1, 'testDeleteUser')
+data.setCell(12, 2, 'testcases.UserTests')
+data.setCell(12, 3, 1864);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'testGetUserById')
+data.setCell(13, 1, 'testGetAllUsers')
 data.setCell(13, 2, 'testcases.UserTests')
-data.setCell(13, 3, 1378);
+data.setCell(13, 3, 1807);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'testGetAllCarts')
-data.setCell(14, 2, 'testcases.CartTests')
-data.setCell(14, 3, 1353);
+data.setCell(14, 1, 'testGetSortedProductsASC')
+data.setCell(14, 2, 'testcases.ProductTest')
+data.setCell(14, 3, 1754);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'testUpdateUser')
-data.setCell(15, 2, 'testcases.UserTests')
-data.setCell(15, 3, 1335);
+data.setCell(15, 1, 'testDeleteProduct')
+data.setCell(15, 2, 'testcases.ProductTest')
+data.setCell(15, 3, 1742);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'testGetSortedProducts')
-data.setCell(16, 2, 'testcases.ProductTest')
-data.setCell(16, 3, 1333);
+data.setCell(16, 1, 'testValidUserLogin')
+data.setCell(16, 2, 'testcases.LoginTests')
+data.setCell(16, 3, 1733);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'testGetSortedProductsASC')
-data.setCell(17, 2, 'testcases.ProductTest')
-data.setCell(17, 3, 1306);
+data.setCell(17, 1, 'testDeleteCart')
+data.setCell(17, 2, 'testcases.CartTests')
+data.setCell(17, 3, 1714);
 data.setCell(18, 0, 18)
-data.setCell(18, 1, 'testGetUsersSorted')
-data.setCell(18, 2, 'testcases.UserTests')
-data.setCell(18, 3, 1301);
+data.setCell(18, 1, 'testGetUserCartByDateRange')
+data.setCell(18, 2, 'testcases.CartTests')
+data.setCell(18, 3, 1698);
 data.setCell(19, 0, 19)
-data.setCell(19, 1, 'testGetCartsWithLimit')
-data.setCell(19, 2, 'testcases.CartTests')
-data.setCell(19, 3, 1291);
+data.setCell(19, 1, 'testGetLimitedProducts')
+data.setCell(19, 2, 'testcases.ProductTest')
+data.setCell(19, 3, 1681);
 data.setCell(20, 0, 20)
-data.setCell(20, 1, 'testGetCartsSortedAsc')
-data.setCell(20, 2, 'testcases.CartTests')
-data.setCell(20, 3, 1274);
+data.setCell(20, 1, 'testGetSortedProducts')
+data.setCell(20, 2, 'testcases.ProductTest')
+data.setCell(20, 3, 1678);
 data.setCell(21, 0, 21)
-data.setCell(21, 1, 'testGetAllCategories')
-data.setCell(21, 2, 'testcases.ProductTest')
-data.setCell(21, 3, 1272);
+data.setCell(21, 1, 'testGetCartsByDateRange')
+data.setCell(21, 2, 'testcases.CartTests')
+data.setCell(21, 3, 1641);
 data.setCell(22, 0, 22)
-data.setCell(22, 1, 'testGetUserswithLimit')
-data.setCell(22, 2, 'testcases.UserTests')
-data.setCell(22, 3, 1258);
+data.setCell(22, 1, 'testGetAllProducts')
+data.setCell(22, 2, 'testcases.ProductTest')
+data.setCell(22, 3, 1634);
 data.setCell(23, 0, 23)
-data.setCell(23, 1, 'testGetUserCart')
-data.setCell(23, 2, 'testcases.CartTests')
-data.setCell(23, 3, 1245);
+data.setCell(23, 1, 'testUpdateProduct')
+data.setCell(23, 2, 'testcases.ProductTest')
+data.setCell(23, 3, 1628);
 data.setCell(24, 0, 24)
-data.setCell(24, 1, 'testGetUserCartByDateRange')
-data.setCell(24, 2, 'testcases.CartTests')
-data.setCell(24, 3, 1234);
+data.setCell(24, 1, 'testGetProductByID')
+data.setCell(24, 2, 'testcases.ProductTest')
+data.setCell(24, 3, 1624);
 data.setCell(25, 0, 25)
-data.setCell(25, 1, 'testUpdateProduct')
-data.setCell(25, 2, 'testcases.ProductTest')
-data.setCell(25, 3, 1156);
+data.setCell(25, 1, 'testCreateCart')
+data.setCell(25, 2, 'testcases.CartTests')
+data.setCell(25, 3, 1553);
 data.setCell(26, 0, 26)
-data.setCell(26, 1, 'testGetCartsByDateRange')
+data.setCell(26, 1, 'testGetAllCarts')
 data.setCell(26, 2, 'testcases.CartTests')
-data.setCell(26, 3, 1142);
+data.setCell(26, 3, 1524);
 data.setCell(27, 0, 27)
-data.setCell(27, 1, 'testGetLimitedProducts')
-data.setCell(27, 2, 'testcases.ProductTest')
-data.setCell(27, 3, 1139);
+data.setCell(27, 1, 'testGetUsersSorted')
+data.setCell(27, 2, 'testcases.UserTests')
+data.setCell(27, 3, 1320);
 data.setCell(28, 0, 28)
-data.setCell(28, 1, 'testUpdateCart')
+data.setCell(28, 1, 'testGetCartsSorted')
 data.setCell(28, 2, 'testcases.CartTests')
-data.setCell(28, 3, 1069);
+data.setCell(28, 3, 1157);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testGetAllCategories')
+data.setCell(29, 2, 'testcases.ProductTest')
+data.setCell(29, 3, 1095);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testGetCartsWithLimit')
+data.setCell(30, 2, 'testcases.CartTests')
+data.setCell(30, 3, 1059);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'testGetUserById')
+data.setCell(31, 2, 'testcases.UserTests')
+data.setCell(31, 3, 983);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'testGetUsersSortedAsc')
+data.setCell(32, 2, 'testcases.UserTests')
+data.setCell(32, 3, 734);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'testGetCartsSortedAsc')
+data.setCell(33, 2, 'testcases.CartTests')
+data.setCell(33, 3, 706);
 window.suiteTableData['API_TestSuite']= { tableData: data, tableDiv: 'times-div-API_TestSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 18 seconds</span>
+              <span class="suite-total-time">Total running time: 22 seconds</span>
               <div id="times-div-API_TestSuite">
               </div> <!-- times-div-API_TestSuite -->
             </div> <!-- times-div -->
@@ -717,207 +829,226 @@ return data;
               </div> <!-- configuration-class before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">testcases.CartTests</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">setup</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-class before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
               <div class="chronological-class-name">testcases.ProductTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testAddNewProduct</span>
-                <span class="method-start">524 ms</span>
+                <span class="method-start">494 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.UserTests</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testCreateUser</span>
-                <span class="method-start">524 ms</span>
+                <span class="method-start">494 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testcases.CartTests</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">testCreateCart</span>
-                <span class="method-start">524 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testcases.UserTests</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testDeleteUser</span>
-                <span class="method-start">5010 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testcases.CartTests</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">testDeleteCart</span>
-                <span class="method-start">5016 ms</span>
+                <span class="method-start">5005 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.ProductTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testDeleteProduct</span>
-                <span class="method-start">5021 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testcases.CartTests</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">testGetAllCarts</span>
-                <span class="method-start">6563 ms</span>
+                <span class="method-start">6400 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.UserTests</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testGetAllUsers</span>
-                <span class="method-start">6564 ms</span>
+                <span class="method-start">6878 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.ProductTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testGetAllCategories</span>
-                <span class="method-start">6570 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">testGetAllProducts</span>
-                <span class="method-start">7881 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testcases.CartTests</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">testGetCartById</span>
-                <span class="method-start">7923 ms</span>
+                <span class="method-start">8150 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.UserTests</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testGetUserById</span>
-                <span class="method-start">7964 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">testGetUsersSorted</span>
-                <span class="method-start">9347 ms</span>
+                <span class="method-start">8705 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">testcases.CartTests</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testcases.ProductTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">testGetCartsByDateRange</span>
-                <span class="method-start">9434 ms</span>
+                <span class="method-name">testGetAllProducts</span>
+                <span class="method-start">9254 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.UserTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testGetUsersSorted</span>
+                <span class="method-start">9696 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.ProductTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testGetLimitedProducts</span>
-                <span class="method-start">9482 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testcases.CartTests</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">testGetCartsSorted</span>
-                <span class="method-start">10651 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testcases.ProductTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">testGetProductByID</span>
-                <span class="method-start">10652 ms</span>
+                <span class="method-start">10893 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.UserTests</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testGetUsersSortedAsc</span>
-                <span class="method-start">10659 ms</span>
+                <span class="method-start">11026 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetUserswithLimit</span>
+                <span class="method-start">11774 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.ProductTest</div> <!-- chronological-class-name -->
               <div class="test-method">
+                <span class="method-name">testGetProductByID</span>
+                <span class="method-start">12585 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <span class="method-name">testGetProductsByCategory</span>
-                <span class="method-start">12046 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testcases.UserTests</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">testGetUserswithLimit</span>
-                <span class="method-start">12126 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testcases.CartTests</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">testGetCartsSortedAsc</span>
-                <span class="method-start">12143 ms</span>
+                <span class="method-start">14217 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.UserTests</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testUpdateUser</span>
-                <span class="method-start">13432 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testcases.CartTests</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">testGetCartsWithLimit</span>
-                <span class="method-start">13467 ms</span>
+                <span class="method-start">15491 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.ProductTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testGetSortedProducts</span>
-                <span class="method-start">13513 ms</span>
+                <span class="method-start">16917 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testcases.CartTests</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">testGetUserCart</span>
-                <span class="method-start">14823 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testcases.ProductTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testGetSortedProductsASC</span>
-                <span class="method-start">14854 ms</span>
+                <span class="method-start">18612 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.CartTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">18707 ms</span>
+              </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">testGetUserCartByDateRange</span>
-                <span class="method-start">16079 ms</span>
+                <span class="method-name">testCreateCart</span>
+                <span class="method-start">18710 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDeleteCart</span>
+                <span class="method-start">20303 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.ProductTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testUpdateProduct</span>
-                <span class="method-start">16167 ms</span>
+                <span class="method-start">20371 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.CartTests</div> <!-- chronological-class-name -->
               <div class="test-method">
+                <span class="method-name">testGetAllCarts</span>
+                <span class="method-start">22020 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.LoginTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">22055 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testInvalidUserLogin</span>
+                <span class="method-start">22056 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.CartTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testGetCartById</span>
+                <span class="method-start">23548 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.LoginTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testValidUserLogin</span>
+                <span class="method-start">24036 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.SchemaTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">25866 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">tesUserSchema</span>
+                <span class="method-start">25867 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.CartTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testGetCartsByDateRange</span>
+                <span class="method-start">26254 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.SchemaTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCartSchema</span>
+                <span class="method-start">27830 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.CartTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testGetCartsSorted</span>
+                <span class="method-start">27899 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetCartsSortedAsc</span>
+                <span class="method-start">29060 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetCartsWithLimit</span>
+                <span class="method-start">29769 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.SchemaTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testProductSchema</span>
+                <span class="method-start">30739 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.CartTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testGetUserCart</span>
+                <span class="method-start">30832 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetUserCartByDateRange</span>
+                <span class="method-start">33268 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <span class="method-name">testUpdateCart</span>
-                <span class="method-start">17321 ms</span>
+                <span class="method-start">34973 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
