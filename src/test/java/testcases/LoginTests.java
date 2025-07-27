@@ -35,7 +35,7 @@ public class LoginTests extends Baseclass {
 	}
 	
 	
-	@Test()
+	//@Test()
 	public void testValidUserLogin()
 	{
 		

@@ -25,6 +25,7 @@ public class CartTests extends Baseclass {
 	@Test
 	public void testGetAllCarts() {
 		given()
+		.header("Authorization", "Bearer " + token)
 		.when()
 		.get(Routes.GET_ALL_CARTS)
 		.then()
@@ -37,6 +38,7 @@ public class CartTests extends Baseclass {
 		int cartId = configReader.getIntProperty("cartId");
 		given()
 		.pathParam("id", cartId)
+		.header("Authorization", "Bearer " + token)
 		.when()
 		.get(Routes.GET_CART_BY_ID)
 		.then()
@@ -76,6 +78,7 @@ public class CartTests extends Baseclass {
 		int userId = configReader.getIntProperty("userId");
 
 		given()
+		.header("Authorization", "Bearer " + token)
 		.pathParam("userId", userId)
 		.when()
 		.get(Routes.GET_USER_CART)
@@ -89,6 +92,7 @@ public class CartTests extends Baseclass {
 	public void testGetCartsWithLimit() {
 		int limit = configReader.getIntProperty("limit");
 		given()
+		.header("Authorization", "Bearer " + token)
 		.pathParam("limit", limit)
 		.when()
 		.get(Routes.GET_CARTS_WITH_LIMIT)
@@ -100,6 +104,7 @@ public class CartTests extends Baseclass {
 	@Test
 	public void testGetCartsSorted() {
 		Response response = given()
+				.header("Authorization", "Bearer " + token)
 				.pathParam("order", "desc")
 				.when()
 				.get(Routes.GET_CARTS_SORTED)
@@ -118,6 +123,7 @@ public class CartTests extends Baseclass {
 	@Test
 	public void testGetCartsSortedAsc() {
 		Response response = given()
+				.header("Authorization", "Bearer " + token)
 				.pathParam("order", "asc")
 				.when()
 				.get(Routes.GET_CARTS_SORTED)
@@ -143,6 +149,7 @@ public class CartTests extends Baseclass {
 
 
 		given()
+		.header("Authorization", "Bearer " + token)
 		.contentType(ContentType.JSON)
 		.body(newCart)
 		.when()
@@ -163,6 +170,7 @@ public class CartTests extends Baseclass {
 
 		Cart updateCart=Payload.cartPayload(userId); //userId passing
 		given()
+		.header("Authorization", "Bearer " + token)
 		.pathParam("id", cartId)
 		.contentType(ContentType.JSON)
 		.body(updateCart)
@@ -179,6 +187,7 @@ public class CartTests extends Baseclass {
 	public void testDeleteCart() {
 		int cartId = configReader.getIntProperty("cartId");
 		given()
+		.header("Authorization", "Bearer " + token)
 		.pathParam("id", cartId)
 		.when()
 		.delete(Routes.DELETE_CART)
