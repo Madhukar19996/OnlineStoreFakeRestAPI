@@ -3,9 +3,9 @@ package testcases;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.PrintStream;
+import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
-import java.time.LocalDate;
 
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
@@ -22,68 +22,74 @@ import static io.restassured.RestAssured.given;
 
 public class Baseclass {
 
-	protected static String token;  // Shared by all tests
-	ConfigReader configReader;
+	protected static String token; // Shared across tests
+	protected static ConfigReader configReader;
+	protected static final DateTimeFormatter FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd");
 
-	// Logging filters
-	RequestLoggingFilter requestLoggingFilter;
-	ResponseLoggingFilter responseLoggingFilter;
+	private static RequestLoggingFilter requestLoggingFilter;
+	private static ResponseLoggingFilter responseLoggingFilter;
 
-	public static final DateTimeFormatter FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd");
-
-	@BeforeClass(alwaysRun = true)
-	public void setup() throws FileNotFoundException {
-		
+	@BeforeSuite(alwaysRun = true)
+	public void initializeSuite() {
 		RestAssured.baseURI = Routes.BASE_URL;
 
-		
+		configReader = new ConfigReader();
 
-		// Setup logging to a file
-		FileOutputStream fos = new FileOutputStream(".\\logs\\test_logging.log");
-		PrintStream log = new PrintStream(fos, true);
+		// Logging setup
+		try {
+			FileOutputStream fos = new FileOutputStream(".\\logs\\test_logging.log");
+			PrintStream log = new PrintStream(fos, true);
+			requestLoggingFilter = new RequestLoggingFilter(log);
+			responseLoggingFilter = new ResponseLoggingFilter(log);
+			RestAssured.filters(requestLoggingFilter, responseLoggingFilter);
+		} catch (FileNotFoundException e) {
+			throw new RuntimeException("Failed to initialize logging", e);
+		}
 
-		requestLoggingFilter = new RequestLoggingFilter(log);
-		responseLoggingFilter = new ResponseLoggingFilter(log);
-
-		RestAssured.filters(requestLoggingFilter, responseLoggingFilter);
-
-		// Generate token only once and reuse
+		// Generate token only once
 		if (token == null || token.isEmpty()) {
-			generateToken();
+			token = generateToken();
 		}
 	}
-   
-	@BeforeSuite(alwaysRun = true)
-	private String generateToken() {
-		configReader = new ConfigReader();
-	    String username = configReader.getProperty("username");
-	    String password = configReader.getProperty("password");
 
-	    // ✅ Null check to avoid creating a broken Login object
-	    if (username == null || password == null) {
-	        throw new RuntimeException("Username or Password is null. Check your config.properties file.");
-	    }
-
-	    Login loginPayload = new Login(username, password);
-
-	    Response response = given()
-	            .header("Content-Type", "application/json")
-	            .body(loginPayload)
-	            .post(Routes.AUTH_LOGIN);
-
-	    if (response.getStatusCode() == 200) {
-	        return response.jsonPath().getString("token");
-	        //System.out.println("Token generated: " + token);
-	    } else {
-	        throw new RuntimeException("Login failed. Status code: " + response.getStatusCode());
-	    }
+	@BeforeClass(alwaysRun = true)
+	public void setupClassLevel() {
+		// If token somehow wasn't initialized
+		if (token == null || token.isEmpty()) {
+			token = generateToken();
+		}
 	}
-	// Optional helper to get token (can be used if needed elsewhere)
+
+	protected String generateToken() {
+		String username = configReader.getProperty("username");
+		String password = configReader.getProperty("password");
+
+		if (username == null || password == null) {
+			throw new RuntimeException("Username or Password not found. Please check config.properties.");
+		}
+
+		Login loginPayload = new Login(username, password);
+
+		Response response = given()
+				.header("Content-Type", "application/json")
+				.body(loginPayload)
+				.post(Routes.AUTH_LOGIN);
+
+		if (response.getStatusCode() == 200) {
+			String generatedToken = response.jsonPath().getString("token");
+			System.out.println("Token generated successfully. :"+generatedToken);
+			return generatedToken;
+		} else {
+			throw new RuntimeException("Login failed. Status Code: " + response.getStatusCode());
+		}
+	}
+
+	// Helper to access token if needed externally
 	public String getToken() {
 		return token;
 	}
 
-	// ----------------- Helper methods ------------------
+	// ------------------- Utility Methods -------------------
 
 	public boolean isSortedDescending(List<Integer> list) {
 		for (int i = 0; i < list.size() - 1; i++) {
@@ -116,5 +122,3 @@ public class Baseclass {
 		return true;
 	}
 }
-
-
