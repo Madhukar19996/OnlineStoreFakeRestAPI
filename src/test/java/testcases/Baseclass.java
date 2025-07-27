@@ -8,6 +8,7 @@ import java.util.List;
 import java.time.LocalDate;
 
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeSuite;
 
 import io.restassured.RestAssured;
 import io.restassured.filter.log.RequestLoggingFilter;
@@ -32,9 +33,10 @@ public class Baseclass {
 
 	@BeforeClass(alwaysRun = true)
 	public void setup() throws FileNotFoundException {
+		
 		RestAssured.baseURI = Routes.BASE_URL;
 
-		configReader = new ConfigReader();
+		
 
 		// Setup logging to a file
 		FileOutputStream fos = new FileOutputStream(".\\logs\\test_logging.log");
@@ -50,8 +52,10 @@ public class Baseclass {
 			generateToken();
 		}
 	}
-
-	private void generateToken() {
+   
+	@BeforeSuite(alwaysRun = true)
+	private String generateToken() {
+		configReader = new ConfigReader();
 	    String username = configReader.getProperty("username");
 	    String password = configReader.getProperty("password");
 
@@ -68,8 +72,8 @@ public class Baseclass {
 	            .post(Routes.AUTH_LOGIN);
 
 	    if (response.getStatusCode() == 200) {
-	        token= response.jsonPath().getString("token");
-	        System.out.println("Token generated: " + token);
+	        return response.jsonPath().getString("token");
+	        //System.out.println("Token generated: " + token);
 	    } else {
 	        throw new RuntimeException("Login failed. Status code: " + response.getStatusCode());
 	    }
@@ -112,3 +116,5 @@ public class Baseclass {
 		return true;
 	}
 }
+
+

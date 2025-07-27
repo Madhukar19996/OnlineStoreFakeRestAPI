@@ -1,3 +1,38 @@
+Request method:	POST
+Request URI:	https://fakestoreapi.com/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "mor_2314",
+    "password": "83r5^_"
+}
+HTTP/1.1 200 OK
+Date: Sun, 27 Jul 2025 10:06:20 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"98-eX0lFYeQYdrOzdg/okOwpZvPDqk"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=4rFNMb9WCxGXW0ukhF1qxJP3awCkKymuB2mgrJCrDyJwsnhSjgoVNsc9pyY09eqmuYpbxi7OmqO6uY5s5i5q1nhWIn%2BslaXpKuFp8qcz"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 965b52d3ac3111a1-MRS
+alt-svc: h3=":443"; ma=86400
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIsInVzZXIiOiJtb3JfMjMxNCIsImlhdCI6MTc1MzYxMDc4MH0.CTxNwLJt6Q91HJUkJuBbH4NzsWMtgdx1lhPolf7Nyzc"
+}
 Request method:	GET
 Request URI:	https://fakestoreapi.com/users/1
 Proxy:			<none>
@@ -22,7 +57,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Sun, 27 Jul 2025 09:21:42 GMT
+Date: Sun, 27 Jul 2025 10:06:24 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -31,901 +66,10 @@ Etag: W/"3a8-j3C8983spvK8GpaSYa+SyYlAS2A"
 X-Powered-By: Express
 Cf-Cache-Status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=D5yc8Gp9gfSDYGaL2aaDrarkfcwJj3wOS%2BCL%2BlN5FeNvZcqJvD360FlKW3yVNAfTywFxA4D2KQgvNzkeK4vlZ8uqKEmUqKhlRQKRSP1v"}]}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=tU5ucBs6CBO08zfyGVbTaaqKc741OIX2IyEMXpki%2FWWAmcSXrNm2Mo4lMVIk8Ar%2F0mz2M%2Bo0Ro7St6JojgpDkGtEZ0RZPDhkJOVht%2BWdOFY%3D"}]}
 Content-Encoding: gzip
 Server: cloudflare
-CF-RAY: 965b1170084a12b5-MRS
-alt-svc: h3=":443"; ma=86400
-
-[
-    {
-        "id": 1,
-        "userId": 1,
-        "date": "2020-03-02T00:00:00.000Z",
-        "products": [
-            {
-                "productId": 1,
-                "quantity": 4
-            },
-            {
-                "productId": 2,
-                "quantity": 1
-            },
-            {
-                "productId": 3,
-                "quantity": 6
-            }
-        ],
-        "__v": 0
-    },
-    {
-        "id": 2,
-        "userId": 1,
-        "date": "2020-01-02T00:00:00.000Z",
-        "products": [
-            {
-                "productId": 2,
-                "quantity": 4
-            },
-            {
-                "productId": 1,
-                "quantity": 10
-            },
-            {
-                "productId": 5,
-                "quantity": 2
-            }
-        ],
-        "__v": 0
-    },
-    {
-        "id": 3,
-        "userId": 2,
-        "date": "2020-03-01T00:00:00.000Z",
-        "products": [
-            {
-                "productId": 1,
-                "quantity": 2
-            },
-            {
-                "productId": 9,
-                "quantity": 1
-            }
-        ],
-        "__v": 0
-    },
-    {
-        "id": 4,
-        "userId": 3,
-        "date": "2020-01-01T00:00:00.000Z",
-        "products": [
-            {
-                "productId": 1,
-                "quantity": 4
-            }
-        ],
-        "__v": 0
-    },
-    {
-        "id": 5,
-        "userId": 3,
-        "date": "2020-03-01T00:00:00.000Z",
-        "products": [
-            {
-                "productId": 7,
-                "quantity": 1
-            },
-            {
-                "productId": 8,
-                "quantity": 1
-            }
-        ],
-        "__v": 0
-    },
-    {
-        "id": 6,
-        "userId": 4,
-        "date": "2020-03-01T00:00:00.000Z",
-        "products": [HTTP/1.1 200 OK
-Date: Sun, 27 Jul 2025 09:21:42 GMT
-Content-Type: application/json; charset=utf-8
-Transfer-Encoding: chunked
-Connection: keep-alive
-Access-Control-Allow-Origin: *
-Etag: W/"3a8-j3C8983spvK8GpaSYa+SyYlAS2A"
-X-Powered-By: Express
-Cf-Cache-Status: DYNAMIC
-Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=D5yRequest method:	GET
-Request URI:	https://fakestoreapi.com/carts?sort=desc
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	order=desc
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIsInVzZXIiOiJtb3JfMjMxNCIsImlhdCI6MTc1MzYwODA3Mn0.kbJ70OLfQZPa_96k6VyMI4F0bOdv8_qWxJWWIDz7ozE
-				Accept=*/*
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-HTTP/1.1 200 OK
-Date: Sun, 27 Jul 2025 09:21:41 GMT
-Content-Type: application/json; charset=utf-8
-Transfer-Encoding: chunked
-Connection: keep-alive
-Access-Control-Allow-Origin: *
-Etag: W/"120-HNMhv14aQeBJetA9fBvavCZ+gdk"
-X-Powered-By: Express
-Cf-Cache-Status: DYNAMIC
-Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=WuhX5HwNGRjTGbw2VLXTWVyARqz6JpHpE9G8p4jellRMTfcW782CnJSL09C4TDLBv%2Fj74bc7GTjM1iYZldeTlJItXRze0NF7FRlqcKRP14Y%3D"}]}
-Content-Encoding: gzip
-Server: cloudflare
-CF-RAY: 965b116b3ec4e5bf-MRS
-alt-svc: h3=":443"; ma=86400
-
-{
-    "address": {
-        "geolocation": {
-            "lat": "-37.3159",
-            "long": "81.1496"
-        },
-        "city": "kilcoole",
-        "street": "new road",
-        "number": 7682,
-        "zipcode": "12926-3874"
-    },
-    "id": 1,
-    "email": "john@gmail.com",
-    "username": "johnd",
-    "password": "m38rmF$",
-    "name": {
-        "firstname": "john",
-        "lastname": "doe"
-    },
-    "phone": "1-570-236-7033",
-    "__v": 0
-}
-Request method:	GET
-Request URI:	https://fakestoreapi.com/carts/1
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	id=1
-Headers:		Accept=*/*
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-HTTP/1.1 200 OK
-Date: Sun, 27 Jul 2025 09:21:43 GMT
-Content-Type: application/json; charset=utf-8
-Transfer-Encoding: chunked
-Connection: keep-alive
-Access-Control-Allow-Origin: *
-Etag: W/"3a8-nb02RQT3OuKfcepxTeTynGjWm8Q"
-X-Powered-By: Express
-Cf-Cache-Status: DYNAMIC
-Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=vGHtNgX5z1FJn6tByqdj7%2B38yTcX2WUiFmVfdmmV0iET%2FiRFoq3wp0Xvj5tI70Ij77TuFiJc%2Bv%2BsMxFtsilS2ocxoifd%2FavMRX8Z8EXMavo%3D"}]}
-Content-Encoding: gzip
-Server: cloudflare
-CF-RAY: 965b1176c923e231-MRS
-alt-svc: h3=":443"; ma=86400
-
-[
-    {
-        "id": 7,
-        "userId": 8,
-        "date": "2020-03-01T00:00:00.000Z",
-        "products": [
-            {
-                "productId": 18,
-                "quantity": 1
-            }
-        ],
-        "__v": 0
-    },
-    {
-        "id": 6,
-        "userId": 4,
-        "date": "2020-03-01T00:00:00.000Z",
-        "products": [
-            {
-                "productId": 10,
-                "quantity": 2
-            },
-            {
-                "productId": 12,
-                "quantity": 3
-            }
-        ],
-        "__v": 0
-    },
-    {
-        "id": 5,
-        "userId": 3,
-        "date": "2020-03-01T00:00:00.000Z",
-        "products": [
-            {
-                "productId": 7,
-                "quantity": 1
-            },
-            {
-                "productId": 8,
-                "quantity": 1
-            }
-        ],
-        "__v": 0
-    },
-    {
-        "id": 4,
-        "userId": 3,
-        "date": "2020-01-01T00:00:00.000Z",
-        "products": [
-            {
-                "productId": 1,
-                "quantity": 4
-            }
-        ],
-        "__v": 0
-    },
-    {
-        "id": 3,
-        "userId": 2,
-        "date": "2020-03-01T00:00:00.000Z",
-        "products": [
-            {
-                "productId": 1,
-                "quantity": 2
-            },
-            {
-                "productId": 9,
-                "quantity": 1
-            }
-        ],
-        "__v": 0
-    },
-    {
-        "id": 2,
-        "userId": 1,
-        "date": "2020-01-02T00:00:00.000Z",
-        "products": [
-            {
-                "productId": 2,
-                "quantity": 4
-            },
-            {
-                "productId": 1,
-                "quantity": 10
-            },
-            {
-                "productId": 5,
-                "quantity": 2HTTP/1.1 200 OK
-Date: Sun, 27 Jul 2025 09:21:43 GMT
-Content-Type: application/json; charset=utf-8
-Transfer-Encoding: chunked
-Connection: keep-alive
-Access-Control-Allow-Origin: *
-Etag: W/"3a8-nb02RQT3OuKfcepxTeTynGjWm8Q"
-X-Powered-By: Express
-Cf-Cache-Status: DYNAMIC
-Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=vGHtNgX5z1FJn6tRequest method:	GET
-Request URI:	https://fakestoreapi.com/carts?sort=asc
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	order=asc
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIsInVzZXIiOiJtb3JfMjMxNCIsImlhdCI6MTc1MzYwODA3Mn0.kbJ70OLfQZPa_96k6VyMI4F0bOdv8_qWxJWWIDz7ozE
-				Accept=*/*
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-HTTP/1.1 200 OK
-Date: Sun, 27 Jul 2025 09:21:44 GMT
-Content-Type: application/json; charset=utf-8
-Transfer-Encoding: chunked
-Connection: keep-alive
-Access-Control-Allow-Origin: *
-Etag: W/"a1-wvAyaNKAHffOoZd5/I4wHuNFvSs"
-X-Powered-By: Express
-Cf-Cache-Status: DYNAMIC
-Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=UOeIgrKh7JEQhfaB5YFK7Dl6cVf1OyspaMnB2WI92OJv1zaP9hb%2FzwI5oc1jUEAWGWIrsPQa%2FTu27ppOJKZRU7cyr8bn1EQKhrxe3ydf"}]}
-Content-Encoding: gzip
-Server: cloudflare
-CF-RAY: 965b117c2c74185a-MRS
-alt-svc: h3=":443"; ma=86400
-
-{
-    "id": 1,
-    "userId": 1,
-    "date": "2020-03-02T00:00:00.000Z",
-    "products": [
-        {
-            "productId": 1,
-            "quantity": 4
-        },
-        {
-            "productId": 2,
-            "quantity": 1
-        },
-        {
-            "productId": 3,
-            "quantity": 6
-        }
-    ],
-    "__v": 0
-}
-Request method:	GET
-Request URI:	https://fakestoreapi.com/products/1
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	id=1
-Headers:		Accept=*/*
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-HTTP/1.1 200 OK
-Date: Sun, 27 Jul 2025 09:21:45 GMT
-Content-Type: application/json; charset=utf-8
-Transfer-Encoding: chunked
-Connection: keep-alive
-Access-Control-Allow-Origin: *
-Etag: W/"16c-MMdrqY6N0sTiefLdsgtBej9eunY"
-X-Powered-By: Express
-Cf-Cache-Status: DYNAMIC
-Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=RJB4NmkpQ719vhI0t0T9yeOj%2BZm5JaQbodVAnVGGzG5BupyoCmAi%2BOttkwfINrmQ34teKd7%2FAyJsZpDeo4EJr4Wwu9bezHrg8R3k3Op16ms%3D"}]}
-Content-Encoding: gzip
-Server: cloudflare
-CF-RAY: 965b11828d61e1b7-MRS
-alt-svc: h3=":443"; ma=86400
-
-{
-    "id": 1,
-    "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
-    "price": 109.95,
-    "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
-    "category": "men's clothing",
-    "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
-    "rating": {
-        "rate": 3.9,
-        "count": 120
-    }
-}
-HTTP/1.1 200 OK
-Date: Sun, 27 Jul 2025 09:21:45 GMT
-Content-Type: application/json; charset=utf-8
-Transfer-Encoding: chunked
-Connection: keep-alive
-Access-Control-Allow-Origin: *
-Etag: W/"3a8-j3C8983spvK8GpaSYa+SyYlAS2A"
-X-Powered-By: Express
-Cf-Cache-Status: DYNAMIC
-Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=l296LxjQPfJP8%2B1sUYE9HBDHYu5jmZGk%2B9wxGsCFCcR8OGf6hAaZtupEgiycaXBeW6kSjkJT82pHtS5VaG%2B9spmaPZmZiWAOMHsd5R0I"}]}
-Content-Encoding: gzip
-Server: cloudflare
-CF-RAY: 965b1183a97457f8-MRS
-alt-svc: h3=":443"; ma=86400
-
-[
-    {
-        "id": 1,
-        "userId": 1,
-        "date": "2020-03-02T00:00:00.000Z",
-        "products": [
-            {
-                "productId": 1,
-                "quantity": 4
-            },
-            {
-                "productId": 2,
-                "quantity": 1
-            },
-            {
-                "productId": 3,
-                "quantity": 6
-            }
-        ],
-        "__v": 0
-    },
-    {
-        "id": 2,
-        "userId": 1,
-        "date": "2020-01-02T00:00:00.000Z",
-        "products": [
-            {
-                "productId": 2,
-                "quantity": 4
-            },
-            {
-                "productId": 1,
-                "quantity": 10
-            },
-            {
-                "productId": 5,
-                "quantity": 2
-            }
-        ],
-        "__v": 0
-    },
-    {
-        "id": 3,
-        "userId": 2,
-        "date": "2020-03-01T00:00:00.000Z",
-        "products": [
-            {
-                "productId": 1,
-                "quantity": 2
-            },
-            {
-                "productId": 9,
-                "quantity": 1
-            }
-        ],
-        "__v": 0
-    },
-    {
-        "id": 4,
-        "userId": 3,
-        "date": "2020-01-01T00:00:00.000Z",
-        "products": [
-            {
-                "productId": 1,
-                "quantity": 4
-            }
-        ],
-        "__v": 0
-    },
-    {
-        "id": 5,
-        "userId": 3,
-        "date": "2020-03-01T00:00:00.000Z",
-        "products": [
-            {
-                "productId": 7,
-                "quantity": 1
-            },
-            {
-                "productId": 8,
-                "quantity": 1
-            }
-        ],
-        "__v": 0
-    },
-    {
-        "id": 6,
-        "userId": 4,
-        "date": "2020-03-01T00:00:00.000Z",
-        "products":HTTP/1.1 200 OK
-Date: Sun, 27 Jul 2025 09:21:45 GMT
-Content-Type: application/json; charset=utf-8
-Transfer-Encoding: chunked
-Connection: keep-alive
-Access-Control-Allow-Origin: *
-Etag: W/"3a8-j3C8983spvK8GpaSYa+SyYlAS2A"
-X-Powered-By: Express
-Cf-Cache-Status: DYNAMIC
-Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=l296LRequest method:	GET
-Request URI:	https://fakestoreapi.com/carts?limit=3
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	limit=3
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIsInVzZXIiOiJtb3JfMjMxNCIsImlhdCI6MTc1MzYwODA3Mn0.kbJ70OLfQZPa_96k6VyMI4F0bOdv8_qWxJWWIDz7ozE
-				Accept=*/*
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-HTTP/1.1 200 OK
-Date: Sun, 27 Jul 2025 09:21:47 GMT
-Content-Type: application/json; charset=utf-8
-Transfer-Encoding: chunked
-Connection: keep-alive
-Access-Control-Allow-Origin: *
-Etag: W/"1cb-k9STtBKwUNpGzaiwMY35nM5R8kQ"
-X-Powered-By: Express
-Cf-Cache-Status: DYNAMIC
-Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=vfZni3M8Nsq0MA%2F3c%2BzqgX0uxUDqqAXSQAMnVUzm8Sg1apWGtZo5ObEvtTiRdLIgaRpLDJerQGKczZnVXCZygqIj51Hd37Y3W8x0k1btmbI%3D"}]}
-Content-Encoding: gzip
-Server: cloudflare
-CF-RAY: 965b11909c581f90-MRS
-alt-svc: h3=":443"; ma=86400
-
-[
-    {
-        "id": 1,
-        "userId": 1,
-        "date": "2020-03-02T00:00:00.000Z",
-        "products": [
-            {
-                "productId": 1,
-                "quantity": 4
-            },
-            {
-                "productId": 2,
-                "quantity": 1
-            },
-            {
-                "productId": 3,
-                "quantity": 6
-            }
-        ],
-        "__v": 0
-    },
-    {
-        "id": 2,
-        "userId": 1,
-        "date": "2020-01-02T00:00:00.000Z",
-        "products": [
-            {
-                "productId": 2,
-                "quantity": 4
-            },
-            {
-                "productId": 1,
-                "quantity": 10
-            },
-            {
-                "productId": 5,
-                "quantity": 2
-            }
-        ],
-        "__v": 0
-    },
-    {
-        "id": 3,
-        "userId": 2,
-        "date": "2020-03-01T00:00:00.000Z",
-        "products": [
-            {
-                "productId": 1,
-                "quantity": 2
-            },
-            {
-                "productId": 9,
-                "quantity": 1
-            }
-        ],
-        "__v": 0
-    }
-]
-Request method:	GET
-Request URI:	https://fakestoreapi.com/carts/user/1
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	userId=1
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIsInVzZXIiOiJtb3JfMjMxNCIsImlhdCI6MTc1MzYwODA3Mn0.kbJ70OLfQZPa_96k6VyMI4F0bOdv8_qWxJWWIDz7ozE
-				Accept=*/*
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-HTTP/1.1 200 OK
-Date: Sun, 27 Jul 2025 09:21:48 GMT
-Content-Type: application/json; charset=utf-8
-Transfer-Encoding: chunked
-Connection: keep-alive
-Access-Control-Allow-Origin: *
-Etag: W/"146-FwHfNZmdUPmJQHLVlvUyMMxf3IQ"
-X-Powered-By: Express
-Cf-Cache-Status: DYNAMIC
-Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=42t9K8xz6UFKdvMvVdRCLo5N9Q%2FDzpbSg1lvsByxJYY6RVJaakpSapDxbI50xWNsycosneADqY1ARuVHaGRJ7Q27xrcFwyr%2F6JGeXOVa1hk%3D"}]}
-Content-Encoding: gzip
-Server: cloudflare
-CF-RAY: 965b1196be7ee1e8-MRS
-alt-svc: h3=":443"; ma=86400
-
-[
-    {
-        "id": 1,
-        "userId": 1,
-        "date": "2020-03-02T00:00:00.000Z",
-        "products": [
-            {
-                "productId": 1,
-                "quantity": 4
-            },
-            {
-                "productId": 2,
-                "quantity": 1
-            },
-            {
-                "productId": 3,
-                "quantity": 6
-            }
-        ],
-        "__v": 0
-    },
-    {
-        "id": 2,
-        "userId": 1,
-        "date": "2020-01-02T00:00:00.000Z",
-        "products": [
-            {
-                "productId": 2,
-                "quantity": 4
-            },
-            {
-                "productId": 1,
-                "quantity": 10
-            },
-            {
-                "productId": 5,
-                "quantity": 2
-            }
-        ],
-        "__v": 0
-    }
-]
-Request method:	GET
-Request URI:	https://fakestoreapi.com/carts/user/1?startdate=2019-12-10&enddate=2020-10-10
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	userId=1
-				startdate=2019-12-10
-				enddate=2020-10-10
-Headers:		Accept=*/*
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-HTTP/1.1 200 OK
-Date: Sun, 27 Jul 2025 09:21:50 GMT
-Content-Type: application/json; charset=utf-8
-Transfer-Encoding: chunked
-Connection: keep-alive
-Access-Control-Allow-Origin: *
-Etag: W/"146-FwHfNZmdUPmJQHLVlvUyMMxf3IQ"
-X-Powered-By: Express
-Cf-Cache-Status: DYNAMIC
-Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=870867ASsG9w%2BCGvPAYrZ06rFHvP5m4sygKRDkj1ak8ky%2BMRQ8VgvMlHReNI%2FZakRJXjfCUCq%2Fy7hhbtL4oeGSxpVceLbB3YjZr2GSZy0ow%3D"}]}
-Content-Encoding: gzip
-Server: cloudflare
-CF-RAY: 965b11a2c9e5e232-MRS
-alt-svc: h3=":443"; ma=86400
-
-[
-    {
-        "id": 1,
-        "userId": 1,
-        "date": "2020-03-02T00:00:00.000Z",
-        "products": [
-            {
-                "productId": 1,
-                "quantity": 4
-            },
-            {
-                "productId": 2,
-                "quantity": 1
-            },
-            {
-                "productId": 3,
-                "quantity": 6
-            }
-        ],
-        "__v": 0
-    },
-    {
-        "id": 2,
-        "userId": 1,
-        "date": "2020-01-02T00:00:00.000Z",
-        "products": [
-            {
-                "productId": 2,
-                "quantity": 4
-            },
-            {
-                "productId": 1,
-                "quantity": 10
-            },
-            {
-                "productId": 5,
-                "quantity": 2
-            }
-        ],
-        "__v": 0
-    }
-]
-Request method:	PUT
-Request URI:	https://fakestoreapi.com/carts/1
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	id=1
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIsInVzZXIiOiJtb3JfMjMxNCIsImlhdCI6MTc1MzYwODA3Mn0.kbJ70OLfQZPa_96k6VyMI4F0bOdv8_qWxJWWIDz7ozE
-				Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "userId": 1,
-    "date": "2025-07-27",
-    "products": [
-        {
-            "productId": 65,
-            "quantity": 5
-        }
-    ]
-}
-HTTP/1.1 200 OK
-Date: Sun, 27 Jul 2025 09:21:51 GMT
-Content-Type: application/json; charset=utf-8
-Transfer-Encoding: chunked
-Connection: keep-alive
-Access-Control-Allow-Origin: *
-Etag: W/"52-XrSHaFsfPLvblBNTvHRAFHF3koM"
-X-Powered-By: Express
-Cf-Cache-Status: DYNAMIC
-Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=XqLotFWLXg02E%2B0kYREjAazUtaWJryrZn3VgFhJ3FLhaE09yzM%2BRRlVS%2BhcaISWte3RFJyQeUuzxLsW53Ghrjl903hQb5h057ke4LQXb"}]}
-Content-Encoding: gzip
-Server: cloudflare
-CF-RAY: 965b11a8e93a449e-MRS
-alt-svc: h3=":443"; ma=86400
-
-{
-    "id": 1,
-    "userId": 1,
-    "date": "2025-07-27",
-    "products": [
-        {
-            "productId": 65,
-            "quantity": 5
-        }
-    ]
-}
-om/report/v4?s=870867ASsG9w%2BCGvPAYrZ06rFHvP5m4sygKRDkj1ak8ky%2BMRQ8VgvMlHReNI%2FZakRJXjfCUCq%2Fy7hhbtL4oeGSxpVceLbB3YjZr2GSZy0ow%3D"}]}
-Content-Encoding: gzip
-Server: cloudflare
-CF-RAY: 965b11a2c9e5e232-MRS
-alt-svc: h3=":443"; ma=86400
-
-[
-    {
-        "id": 1,
-        "userId": 1,
-        "date": "2020-03-02T00:00:00.000Z",
-        "products": [
-            {
-                "productId": 1,
-                "quantity": 4
-            },
-            {
-                "productId": 2,
-                "quantity": 1
-            },
-            {
-                "productId": 3,
-                "quantity": 6
-            }
-        ],
-        "__v": 0
-    },
-    {
-        "id": 2,
-        "userId": 1,
-        "date": "2020-01-02T00:00:00.000Z",
-        "products": [
-            {
-                "productId": 2,
-                "quantity": 4
-            },
-            {
-                "productId": 1,
-                "quantity": 10
-            },
-            {
-                "productId": 5,
-                "quantity": 2
-            }
-        ],
-        "__v": 0
-    }
-]
-Request method:	PUT
-Request URI:	https://fakestoreapi.com/carts/1
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	id=1
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIsInVzZXIiOiJtb3JfMjMxNCIsImlhdCI6MTc1MzYwODA3Mn0.kbJ70OLfQZPa_96k6VyMI4F0bOdv8_qWxJWWIDz7ozE
-				Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "userId": 1,
-    "date": "2025-07-27",
-    "products": [
-        {
-            "productId": 65,
-            "quantity": 5
-        }
-    ]
-}
-HTTP/1.1 200 OK
-Date: Sun, 27 Jul 2025 09:21:51 GMT
-Content-Type: application/json; charset=utf-8
-Transfer-Encoding: chunked
-Connection: keep-alive
-Access-Control-Allow-Origin: *
-Etag: W/"52-XrSHaFsfPLvblBNTvHRAFHF3koM"
-X-Powered-By: Express
-Cf-Cache-Status: DYNAMIC
-Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=XqLotFWLXg02E%2B0kYREjAazUtaWJryrZn3VgFhJ3FLhaE09yzM%2BRRlVS%2BhcaISWte3RFJyQeUuzxLsW53Ghrjl903hQb5h057ke4LQXb"}]}
-Content-Encoding: gzip
-Server: cloudflare
-CF-RAY: 965b11a8e93a449e-MRS
-alt-svc: h3=":443"; ma=86400
-
-{
-    "id": 1,
-    "userId": 1,
-    "date": "2025-07-27",
-    "products": [
-        {
-            "productId": 65,
-            "quantity": 5
-        }
-    ]
-}
-     },
-        {
-            "productId": 2,
-            "quantity": 1
-        },
-        {
-            "productId": 3,
-            "quantity": 6
-        }
-    ],
-    "__v": 0
-}
-Request method:	GET
-Request URI:	https://fakestoreapi.com/carts?startdate=2019-12-10&enddate=2020-10-10
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	startdate=2019-12-10
-				enddate=2020-10-10
-Headers:		Accept=*/*
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-HTTP/1.1 200 OK
-Date: Sun, 27 Jul 2025 09:21:42 GMT
-Content-Type: application/json; charset=utf-8
-Transfer-Encoding: chunked
-Connection: keep-alive
-Access-Control-Allow-Origin: *
-Etag: W/"3a8-j3C8983spvK8GpaSYa+SyYlAS2A"
-X-Powered-By: Express
-Cf-Cache-Status: DYNAMIC
-Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=D5yc8Gp9gfSDYGaL2aaDrarkfcwJj3wOS%2BCL%2BlN5FeNvZcqJvD360FlKW3yVNAfTywFxA4D2KQgvNzkeK4vlZ8uqKEmUqKhlRQKRSP1v"}]}
-Content-Encoding: gzip
-Server: cloudflare
-CF-RAY: 965b1170084a12b5-MRS
+CF-RAY: 965b52e69c5a3db9-SIN
 alt-svc: h3=":443"; ma=86400
 
 [
@@ -1049,13 +193,13 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	order=desc
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIsInVzZXIiOiJtb3JfMjMxNCIsImlhdCI6MTc1MzYwODA3Mn0.kbJ70OLfQZPa_96k6VyMI4F0bOdv8_qWxJWWIDz7ozE
+Headers:		Authorization=Bearer null
 				Accept=*/*
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Sun, 27 Jul 2025 09:21:41 GMT
+Date: Sun, 27 Jul 2025 10:06:24 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -1064,10 +208,10 @@ Etag: W/"120-HNMhv14aQeBJetA9fBvavCZ+gdk"
 X-Powered-By: Express
 Cf-Cache-Status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=WuhX5HwNGRjTGbw2VLXTWVyARqz6JpHpE9G8p4jellRMTfcW782CnJSL09C4TDLBv%2Fj74bc7GTjM1iYZldeTlJItXRze0NF7FRlqcKRP14Y%3D"}]}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=GLIkDiNxEl2Y61KKYWZvBn5ngzP7tshx0C9t00BcMNxFwTQURyEEEaxvQuwOcDZK80A8zgakcGtGB6Ypl%2FMlNaSSOGgO2ThPJ7xsjVughTU%3D"}]}
 Content-Encoding: gzip
 Server: cloudflare
-CF-RAY: 965b116b3ec4e5bf-MRS
+CF-RAY: 965b52e87ddc49f3-SIN
 alt-svc: h3=":443"; ma=86400
 
 {
@@ -1104,7 +248,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Sun, 27 Jul 2025 09:21:43 GMT
+Date: Sun, 27 Jul 2025 10:06:26 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -1113,10 +257,10 @@ Etag: W/"3a8-nb02RQT3OuKfcepxTeTynGjWm8Q"
 X-Powered-By: Express
 Cf-Cache-Status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=vGHtNgX5z1FJn6tByqdj7%2B38yTcX2WUiFmVfdmmV0iET%2FiRFoq3wp0Xvj5tI70Ij77TuFiJc%2Bv%2BsMxFtsilS2ocxoifd%2FavMRX8Z8EXMavo%3D"}]}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=mj89b8JZlQJgYt9RzNb6wJJrrDS6U20HBWFTrfBOnfzpT4hzxe%2BCKYr1XH5iqOn%2FIG%2BltsOjiVPrgg8IoWiOS7rAECe0sqL5cBPc7sIlOfE%3D"}]}
 Content-Encoding: gzip
 Server: cloudflare
-CF-RAY: 965b1176c923e231-MRS
+CF-RAY: 965b52f61b8f3e01-SIN
 alt-svc: h3=":443"; ma=86400
 
 [
@@ -1240,13 +384,13 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	order=asc
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIsInVzZXIiOiJtb3JfMjMxNCIsImlhdCI6MTc1MzYwODA3Mn0.kbJ70OLfQZPa_96k6VyMI4F0bOdv8_qWxJWWIDz7ozE
+Headers:		Authorization=Bearer null
 				Accept=*/*
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Sun, 27 Jul 2025 09:21:44 GMT
+Date: Sun, 27 Jul 2025 10:06:28 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -1255,10 +399,10 @@ Etag: W/"a1-wvAyaNKAHffOoZd5/I4wHuNFvSs"
 X-Powered-By: Express
 Cf-Cache-Status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=UOeIgrKh7JEQhfaB5YFK7Dl6cVf1OyspaMnB2WI92OJv1zaP9hb%2FzwI5oc1jUEAWGWIrsPQa%2FTu27ppOJKZRU7cyr8bn1EQKhrxe3ydf"}]}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=4YwI%2B9D0eweDJRsTMCbx7chyucxjQyGrWdppiW6w3ZNKOrYk7hQWarWAr%2B%2FIyaCaX9v1lkzdSE07p1%2FsEVdDcZP6L8z%2BeUPKGosnQhzzCq8%3D"}]}
 Content-Encoding: gzip
 Server: cloudflare
-CF-RAY: 965b117c2c74185a-MRS
+CF-RAY: 965b5302186dce87-SIN
 alt-svc: h3=":443"; ma=86400
 
 {
@@ -1293,35 +437,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Sun, 27 Jul 2025 09:21:45 GMT
-Content-Type: application/json; charset=utf-8
-Transfer-Encoding: chunked
-Connection: keep-alive
-Access-Control-Allow-Origin: *
-Etag: W/"16c-MMdrqY6N0sTiefLdsgtBej9eunY"
-X-Powered-By: Express
-Cf-Cache-Status: DYNAMIC
-Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=RJB4NmkpQ719vhI0t0T9yeOj%2BZm5JaQbodVAnVGGzG5BupyoCmAi%2BOttkwfINrmQ34teKd7%2FAyJsZpDeo4EJr4Wwu9bezHrg8R3k3Op16ms%3D"}]}
-Content-Encoding: gzip
-Server: cloudflare
-CF-RAY: 965b11828d61e1b7-MRS
-alt-svc: h3=":443"; ma=86400
-
-{
-    "id": 1,
-    "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
-    "price": 109.95,
-    "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
-    "category": "men's clothing",
-    "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
-    "rating": {
-        "rate": 3.9,
-        "count": 120
-    }
-}
-HTTP/1.1 200 OK
-Date: Sun, 27 Jul 2025 09:21:45 GMT
+Date: Sun, 27 Jul 2025 10:06:33 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -1330,10 +446,10 @@ Etag: W/"3a8-j3C8983spvK8GpaSYa+SyYlAS2A"
 X-Powered-By: Express
 Cf-Cache-Status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=l296LxjQPfJP8%2B1sUYE9HBDHYu5jmZGk%2B9wxGsCFCcR8OGf6hAaZtupEgiycaXBeW6kSjkJT82pHtS5VaG%2B9spmaPZmZiWAOMHsd5R0I"}]}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=XExa4UrvOcgBdT9pBiL5VK2kkwr5ugBfq4LSF5u82SB6vN0Hf5GyN0vTJ9hHhAU%2FjB8HWtZ3Yd%2FSjA0m76s7aNKYy9nRy7Zk%2FUNk37RsqMw%3D"}]}
 Content-Encoding: gzip
 Server: cloudflare
-CF-RAY: 965b1183a97457f8-MRS
+CF-RAY: 965b531d9b9ef8e2-SIN
 alt-svc: h3=":443"; ma=86400
 
 [
@@ -1457,13 +573,41 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	limit=3
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIsInVzZXIiOiJtb3JfMjMxNCIsImlhdCI6MTc1MzYwODA3Mn0.kbJ70OLfQZPa_96k6VyMI4F0bOdv8_qWxJWWIDz7ozE
+Headers:		Authorization=Bearer null
 				Accept=*/*
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Sun, 27 Jul 2025 09:21:47 GMT
+Date: Sun, 27 Jul 2025 10:06:33 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"16c-MMdrqY6N0sTiefLdsgtBej9eunY"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=CBKryVT2zzRgbiV45y%2FHfFoaUjHkPYWAs%2F%2BNHEzK3kAPCvO185lb5ej8NDyjlZ0d13YXsszGmXZYeg2Br%2FBK1AnJ2SqAxvXOHCWedxYzOnk%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 965b5321eeb487f3-SIN
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 1,
+    "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+    "price": 109.95,
+    "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+    "category": "men's clothing",
+    "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+    "rating": {
+        "rate": 3.9,
+        "count": 120
+    }
+}
+HTTP/1.1 200 OK
+Date: Sun, 27 Jul 2025 10:06:35 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -1472,10 +616,10 @@ Etag: W/"1cb-k9STtBKwUNpGzaiwMY35nM5R8kQ"
 X-Powered-By: Express
 Cf-Cache-Status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=vfZni3M8Nsq0MA%2F3c%2BzqgX0uxUDqqAXSQAMnVUzm8Sg1apWGtZo5ObEvtTiRdLIgaRpLDJerQGKczZnVXCZygqIj51Hd37Y3W8x0k1btmbI%3D"}]}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=AgQRH2Pa%2BY8qbdMqeK3GEu9lHHTudQuZoV6DCWpm0rKFPWynHMuHgxgihuBxie9YAV4vx6nehIOFYVqgqyUNmQk%2BWSi4jME9WCZg585fWcw%3D"}]}
 Content-Encoding: gzip
 Server: cloudflare
-CF-RAY: 965b11909c581f90-MRS
+CF-RAY: 965b532a1b05c9c6-SIN
 alt-svc: h3=":443"; ma=86400
 
 [
@@ -1543,13 +687,13 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	userId=1
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIsInVzZXIiOiJtb3JfMjMxNCIsImlhdCI6MTc1MzYwODA3Mn0.kbJ70OLfQZPa_96k6VyMI4F0bOdv8_qWxJWWIDz7ozE
+Headers:		Authorization=Bearer null
 				Accept=*/*
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Sun, 27 Jul 2025 09:21:48 GMT
+Date: Sun, 27 Jul 2025 10:06:37 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -1558,10 +702,10 @@ Etag: W/"146-FwHfNZmdUPmJQHLVlvUyMMxf3IQ"
 X-Powered-By: Express
 Cf-Cache-Status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=42t9K8xz6UFKdvMvVdRCLo5N9Q%2FDzpbSg1lvsByxJYY6RVJaakpSapDxbI50xWNsycosneADqY1ARuVHaGRJ7Q27xrcFwyr%2F6JGeXOVa1hk%3D"}]}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=IUFT2fJyMMzg7SRrSbydHFx1z4WH5dQa68ulI7z9FkbbIXvsvW80y9gimSHqz%2F2Fnm6VVXbCDzut944yDH8u0nOlIqu3M4RUsuUA0vhO8zA%3D"}]}
 Content-Encoding: gzip
 Server: cloudflare
-CF-RAY: 965b1196be7ee1e8-MRS
+CF-RAY: 965b5338dd339daa-SIN
 alt-svc: h3=":443"; ma=86400
 
 [
@@ -1620,7 +764,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Sun, 27 Jul 2025 09:21:50 GMT
+Date: Sun, 27 Jul 2025 10:06:42 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -1629,10 +773,10 @@ Etag: W/"146-FwHfNZmdUPmJQHLVlvUyMMxf3IQ"
 X-Powered-By: Express
 Cf-Cache-Status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=870867ASsG9w%2BCGvPAYrZ06rFHvP5m4sygKRDkj1ak8ky%2BMRQ8VgvMlHReNI%2FZakRJXjfCUCq%2Fy7hhbtL4oeGSxpVceLbB3YjZr2GSZy0ow%3D"}]}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=gZ0MV1p1rR14cPptPObhr2T4uUIkLJl1pRQWuuZmXcIjYukybzVS7ATohIOmfKlHDUjLeKqA7MJrG3TudTTq3ItcB6MbrlvRlzLQoQiA"}]}
 Content-Encoding: gzip
 Server: cloudflare
-CF-RAY: 965b11a2c9e5e232-MRS
+CF-RAY: 965b53580cc95f2f-SIN
 alt-svc: h3=":443"; ma=86400
 
 [
@@ -1684,7 +828,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	id=1
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIsInVzZXIiOiJtb3JfMjMxNCIsImlhdCI6MTc1MzYwODA3Mn0.kbJ70OLfQZPa_96k6VyMI4F0bOdv8_qWxJWWIDz7ozE
+Headers:		Authorization=Bearer null
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -1695,25 +839,25 @@ Body:
     "date": "2025-07-27",
     "products": [
         {
-            "productId": 65,
-            "quantity": 5
+            "productId": 30,
+            "quantity": 4
         }
     ]
 }
 HTTP/1.1 200 OK
-Date: Sun, 27 Jul 2025 09:21:51 GMT
+Date: Sun, 27 Jul 2025 10:06:45 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
 Access-Control-Allow-Origin: *
-Etag: W/"52-XrSHaFsfPLvblBNTvHRAFHF3koM"
+Etag: W/"52-Nb69Lr81zC60c4K6/rAGsiiAzA4"
 X-Powered-By: Express
 Cf-Cache-Status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=XqLotFWLXg02E%2B0kYREjAazUtaWJryrZn3VgFhJ3FLhaE09yzM%2BRRlVS%2BhcaISWte3RFJyQeUuzxLsW53Ghrjl903hQb5h057ke4LQXb"}]}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=20uDVFhGqSTPCVCC18rdT8fP6GEkd2rEiJG3mfLUK62apYLnVx1DNgKSi0BqnICy%2F1p5gskiHXMPGIEwJxGHGsEuOpiCJUve0aIFzSCeKoM%3D"}]}
 Content-Encoding: gzip
 Server: cloudflare
-CF-RAY: 965b11a8e93a449e-MRS
+CF-RAY: 965b536a1c83fd08-SIN
 alt-svc: h3=":443"; ma=86400
 
 {
@@ -1722,84 +866,25 @@ alt-svc: h3=":443"; ma=86400
     "date": "2025-07-27",
     "products": [
         {
-            "productId": 65,
-            "quantity": 5
+            "productId": 30,
+            "quantity": 4
         }
     ]
 }
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Request method:	GET
-Request URI:	https://fakestoreapi.com/users/1
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	id=1
-Headers:		Accept=*/*
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-HTTP/1.1 200 OK
-Date: Sun, 27 Jul 2025 09:21:41 GMT
+0 OK
+Date: Sun, 27 Jul 2025 10:06:35 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
 Access-Control-Allow-Origin: *
-Etag: W/"a1-wvAyaNKAHffOoZd5/I4wHuNFvSs"
+Etag: W/"1cb-k9STtBKwUNpGzaiwMY35nM5R8kQ"
 X-Powered-By: Express
 Cf-Cache-Status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=ETTjiHy0No%2F9on6d31ZB1j0e93Ydx49%2BLhHlWLnDbkcnMlZGHUW%2BEd%2FZxo3A9HcQgn1wUsgTvGyvvHqRusOX6mFdNskcnIDN%2FZtcnpgJIBk%3D"}]}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=AgQRH2Pa%2BY8qbdMqeK3GEu9lHHTudQuZoV6DCWpm0rKFPWynHMuHgxgihuBxie9YAV4vx6nehIOFYVqgqyUNmQk%2BWSi4jME9WCZg585fWcw%3D"}]}
 Content-Encoding: gzip
 Server: cloudflare
-CF-RAY: 965b1169bc8ce240-MRS
-alt-svc: h3=":443"; ma=86400
-
-{
-    "id": 1,
-    "userId": 1,
-    "date": "2020-03-02T00:00:00.000Z",
-    "products": [
-        {
-            "productId": 1,
-            "quantity": 4
-        },
-        {
-            "productId": 2,
-            "quantity": 1
-        },
-        {
-            "productId": 3,
-            "quantity": 6
-        }
-    ],
-    "__v": 0
-}
-Request method:	GET
-Request URI:	https://fakestoreapi.com/carts?startdate=2019-12-10&enddate=2020-10-10
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	startdate=2019-12-10
-				enddate=2020-10-10
-Headers:		Accept=*/*
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-HTTP/1.1 200 OK
-Date: Sun, 27 Jul 2025 09:21:42 GMT
-Content-Type: application/json; charset=utf-8
-Transfer-Encoding: chunked
-Connection: keep-alive
-Access-Control-Allow-Origin: *
-Etag: W/"3a8-j3C8983spvK8GpaSYa+SyYlAS2A"
-X-Powered-By: Express
-Cf-Cache-Status: DYNAMIC
-Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=D5yc8Gp9gfSDYGaL2aaDrarkfcwJj3wOS%2BCL%2BlN5FeNvZcqJvD360FlKW3yVNAfTywFxA4D2KQgvNzkeK4vlZ8uqKEmUqKhlRQKRSP1v"}]}
-Content-Encoding: gzip
-Server: cloudflare
-CF-RAY: 965b1170084a12b5-MRS
+CF-RAY: 965b532a1b05c9c6-SIN
 alt-svc: h3=":443"; ma=86400
 
 [
@@ -1858,156 +943,200 @@ alt-svc: h3=":443"; ma=86400
             }
         ],
         "__v": 0
-    },
+    }
+]
+Request method:	GET
+Request URI:	https://fakestoreapi.com/carts/user/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	userId=1
+Headers:		Authorization=Bearer null
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sun, 27 Jul 2025 10:06:37 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"146-FwHfNZmdUPmJQHLVlvUyMMxf3IQ"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=IUFT2fJyMMzg7SRrSbydHFx1z4WH5dQa68ulI7z9FkbbIXvsvW80y9gimSHqz%2F2Fnm6VVXbCDzut944yDH8u0nOlIqu3M4RUsuUA0vhO8zA%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 965b5338dd339daa-SIN
+alt-svc: h3=":443"; ma=86400
+
+[
     {
-        "id": 4,
-        "userId": 3,
-        "date": "2020-01-01T00:00:00.000Z",
+        "id": 1,
+        "userId": 1,
+        "date": "2020-03-02T00:00:00.000Z",
         "products": [
             {
                 "productId": 1,
                 "quantity": 4
-            }
-        ],
-        "__v": 0
-    },
-    {
-        "id": 5,
-        "userId": 3,
-        "date": "2020-03-01T00:00:00.000Z",
-        "products": [
+            },
             {
-                "productId": 7,
+                "productId": 2,
                 "quantity": 1
             },
             {
-                "productId": 8,
-                "quantity": 1
+                "productId": 3,
+                "quantity": 6
             }
         ],
         "__v": 0
     },
     {
-        "id": 6,
-        "userId": 4,
-        "date": "2020-03-01T00:00:00.000Z",
+        "id": 2,
+        "userId": 1,
+        "date": "2020-01-02T00:00:00.000Z",
         "products": [
             {
-                "productId": 10,
+                "productId": 2,
+                "quantity": 4
+            },
+            {
+                "productId": 1,
+                "quantity": 10
+            },
+            {
+                "productId": 5,
                 "quantity": 2
-            },
-            {
-                "productId": 12,
-                "quantity": 3
-            }
-        ],
-        "__v": 0
-    },
-    {
-        "id": 7,
-        "userId": 8,
-        "date": "2020-03-01T00:00:00.000Z",
-        "products": [
-            {
-                "productId": 18,
-                "quantity": 1
             }
         ],
         "__v": 0
     }
 ]
 Request method:	GET
-Request URI:	https://fakestoreapi.com/carts?sort=desc
+Request URI:	https://fakestoreapi.com/carts/user/1?startdate=2019-12-10&enddate=2020-10-10
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
-Path params:	order=desc
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIsInVzZXIiOiJtb3JfMjMxNCIsImlhdCI6MTc1MzYwODA3Mn0.kbJ70OLfQZPa_96k6VyMI4F0bOdv8_qWxJWWIDz7ozE
-				Accept=*/*
+Path params:	userId=1
+				startdate=2019-12-10
+				enddate=2020-10-10
+Headers:		Accept=*/*
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Sun, 27 Jul 2025 09:21:41 GMT
+Date: Sun, 27 Jul 2025 10:06:42 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
 Access-Control-Allow-Origin: *
-Etag: W/"120-HNMhv14aQeBJetA9fBvavCZ+gdk"
+Etag: W/"146-FwHfNZmdUPmJQHLVlvUyMMxf3IQ"
 X-Powered-By: Express
 Cf-Cache-Status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=WuhX5HwNGRjTGbw2VLXTWVyARqz6JpHpE9G8p4jellRMTfcW782CnJSL09C4TDLBv%2Fj74bc7GTjM1iYZldeTlJItXRze0NF7FRlqcKRP14Y%3D"}]}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=gZ0MV1p1rR14cPptPObhr2T4uUIkLJl1pRQWuuZmXcIjYukybzVS7ATohIOmfKlHDUjLeKqA7MJrG3TudTTq3ItcB6MbrlvRlzLQoQiA"}]}
 Content-Encoding: gzip
 Server: cloudflare
-CF-RAY: 965b116b3ec4e5bf-MRS
+CF-RAY: 965b53580cc95f2f-SIN
 alt-svc: h3=":443"; ma=86400
 
-{
-    "address": {
-        "geolocation": {
-            "lat": "-37.3159",
-            "long": "81.1496"
-        },
-        "city": "kilcoole",
-        "street": "new road",
-        "number": 7682,
-        "zipcode": "12926-3874"
+[
+    {
+        "id": 1,
+        "userId": 1,
+        "date": "2020-03-02T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 1,
+                "quantity": 4
+            },
+            {
+                "productId": 2,
+                "quantity": 1
+            },
+            {
+                "productId": 3,
+                "quantity": 6
+            }
+        ],
+        "__v": 0
     },
-    "id": 1,
-    "email": "john@gmail.com",
-    "username": "johnd",
-    "password": "m38rmF$",
-    "name": {
-        "firstname": "john",
-        "lastname": "doe"
-    },
-    "phone": "1-570-236-7033",
-    "__v": 0
-}
-Request method:	GET
+    {
+        "id": 2,
+        "userId": 1,
+        "date": "2020-01-02T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 2,
+                "quantity": 4
+            },
+            {
+                "productId": 1,
+                "quantity": 10
+            },
+            {
+                "productId": 5,
+                "quantity": 2
+            }
+        ],
+        "__v": 0
+    }
+]
+Request method:	PUT
 Request URI:	https://fakestoreapi.com/carts/1
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	id=1
-Headers:		Accept=*/*
+Headers:		Authorization=Bearer null
+				Accept=*/*
+				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
-Body:			<none>
+Body:
+{
+    "userId": 1,
+    "date": "2025-07-27",
+    "products": [
+        {
+            "productId": 30,
+            "quantity": 4
+        }
+    ]
+}
 HTTP/1.1 200 OK
-Date: Sun, 27 Jul 2025 09:21:43 GMT
+Date: Sun, 27 Jul 2025 10:06:45 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
 Access-Control-Allow-Origin: *
-Etag: W/"3a8-nb02RQT3OuKfcepxTeTynGjWm8Q"
+Etag: W/"52-Nb69Lr81zC60c4K6/rAGsiiAzA4"
 X-Powered-By: Express
 Cf-Cache-Status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=vGHtNgX5z1FJn6tByqdj7%2B38yTcX2WUiFmVfdmmV0iET%2FiRFoq3wp0Xvj5tI70Ij77TuFiJc%2Bv%2BsMxFtsilS2ocxoifd%2FavMRX8Z8EXMavo%3D"}]}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=20uDVFhGqSTPCVCC18rdT8fP6GEkd2rEiJG3mfLUK62apYLnVx1DNgKSi0BqnICy%2F1p5gskiHXMPGIEwJxGHGsEuOpiCJUve0aIFzSCeKoM%3D"}]}
 Content-Encoding: gzip
 Server: cloudflare
-CF-RAY: 965b1176c923e231-MRS
+CF-RAY: 965b536a1c83fd08-SIN
 alt-svc: h3=":443"; ma=86400
 
-[
-    {
-        "id": 7,
-        "userId": 8,
-        "date": "2020-03-01T00:00:00.000Z",
-        "products": [
-            {
-                "productId": 18,
-                "quantity": 1
-            }
-        ],
-        "__v": 0
-    },
-    {
-        "id": 6,
+{
+    "id": 1,
+    "userId": 1,
+    "date": "2025-07-27",
+    "products": [
+        {
+            "productId": 30,
+            "quantity": 4
+        }
+    ]
+}
+     "id": 6,
         "userId": 4,
         "date": "2020-03-01T00:00:00.000Z",
         "products": [
@@ -2114,13 +1243,13 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	order=asc
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIsInVzZXIiOiJtb3JfMjMxNCIsImlhdCI6MTc1MzYwODA3Mn0.kbJ70OLfQZPa_96k6VyMI4F0bOdv8_qWxJWWIDz7ozE
+Headers:		Authorization=Bearer null
 				Accept=*/*
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Sun, 27 Jul 2025 09:21:44 GMT
+Date: Sun, 27 Jul 2025 10:06:28 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -2129,10 +1258,10 @@ Etag: W/"a1-wvAyaNKAHffOoZd5/I4wHuNFvSs"
 X-Powered-By: Express
 Cf-Cache-Status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=UOeIgrKh7JEQhfaB5YFK7Dl6cVf1OyspaMnB2WI92OJv1zaP9hb%2FzwI5oc1jUEAWGWIrsPQa%2FTu27ppOJKZRU7cyr8bn1EQKhrxe3ydf"}]}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=4YwI%2B9D0eweDJRsTMCbx7chyucxjQyGrWdppiW6w3ZNKOrYk7hQWarWAr%2B%2FIyaCaX9v1lkzdSE07p1%2FsEVdDcZP6L8z%2BeUPKGosnQhzzCq8%3D"}]}
 Content-Encoding: gzip
 Server: cloudflare
-CF-RAY: 965b117c2c74185a-MRS
+CF-RAY: 965b5302186dce87-SIN
 alt-svc: h3=":443"; ma=86400
 
 {
@@ -2167,35 +1296,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Sun, 27 Jul 2025 09:21:45 GMT
-Content-Type: application/json; charset=utf-8
-Transfer-Encoding: chunked
-Connection: keep-alive
-Access-Control-Allow-Origin: *
-Etag: W/"16c-MMdrqY6N0sTiefLdsgtBej9eunY"
-X-Powered-By: Express
-Cf-Cache-Status: DYNAMIC
-Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=RJB4NmkpQ719vhI0t0T9yeOj%2BZm5JaQbodVAnVGGzG5BupyoCmAi%2BOttkwfINrmQ34teKd7%2FAyJsZpDeo4EJr4Wwu9bezHrg8R3k3Op16ms%3D"}]}
-Content-Encoding: gzip
-Server: cloudflare
-CF-RAY: 965b11828d61e1b7-MRS
-alt-svc: h3=":443"; ma=86400
-
-{
-    "id": 1,
-    "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
-    "price": 109.95,
-    "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
-    "category": "men's clothing",
-    "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
-    "rating": {
-        "rate": 3.9,
-        "count": 120
-    }
-}
-HTTP/1.1 200 OK
-Date: Sun, 27 Jul 2025 09:21:45 GMT
+Date: Sun, 27 Jul 2025 10:06:33 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -2204,10 +1305,10 @@ Etag: W/"3a8-j3C8983spvK8GpaSYa+SyYlAS2A"
 X-Powered-By: Express
 Cf-Cache-Status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=l296LxjQPfJP8%2B1sUYE9HBDHYu5jmZGk%2B9wxGsCFCcR8OGf6hAaZtupEgiycaXBeW6kSjkJT82pHtS5VaG%2B9spmaPZmZiWAOMHsd5R0I"}]}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=XExa4UrvOcgBdT9pBiL5VK2kkwr5ugBfq4LSF5u82SB6vN0Hf5GyN0vTJ9hHhAU%2FjB8HWtZ3Yd%2FSjA0m76s7aNKYy9nRy7Zk%2FUNk37RsqMw%3D"}]}
 Content-Encoding: gzip
 Server: cloudflare
-CF-RAY: 965b1183a97457f8-MRS
+CF-RAY: 965b531d9b9ef8e2-SIN
 alt-svc: h3=":443"; ma=86400
 
 [
@@ -2331,13 +1432,41 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	limit=3
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIsInVzZXIiOiJtb3JfMjMxNCIsImlhdCI6MTc1MzYwODA3Mn0.kbJ70OLfQZPa_96k6VyMI4F0bOdv8_qWxJWWIDz7ozE
+Headers:		Authorization=Bearer null
 				Accept=*/*
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Sun, 27 Jul 2025 09:21:47 GMT
+Date: Sun, 27 Jul 2025 10:06:33 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"16c-MMdrqY6N0sTiefLdsgtBej9eunY"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=CBKryVT2zzRgbiV45y%2FHfFoaUjHkPYWAs%2F%2BNHEzK3kAPCvO185lb5ej8NDyjlZ0d13YXsszGmXZYeg2Br%2FBK1AnJ2SqAxvXOHCWedxYzOnk%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 965b5321eeb487f3-SIN
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 1,
+    "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+    "price": 109.95,
+    "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+    "category": "men's clothing",
+    "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+    "rating": {
+        "rate": 3.9,
+        "count": 120
+    }
+}
+HTTP/1.1 200 OK
+Date: Sun, 27 Jul 2025 10:06:35 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -2346,10 +1475,10 @@ Etag: W/"1cb-k9STtBKwUNpGzaiwMY35nM5R8kQ"
 X-Powered-By: Express
 Cf-Cache-Status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=vfZni3M8Nsq0MA%2F3c%2BzqgX0uxUDqqAXSQAMnVUzm8Sg1apWGtZo5ObEvtTiRdLIgaRpLDJerQGKczZnVXCZygqIj51Hd37Y3W8x0k1btmbI%3D"}]}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=AgQRH2Pa%2BY8qbdMqeK3GEu9lHHTudQuZoV6DCWpm0rKFPWynHMuHgxgihuBxie9YAV4vx6nehIOFYVqgqyUNmQk%2BWSi4jME9WCZg585fWcw%3D"}]}
 Content-Encoding: gzip
 Server: cloudflare
-CF-RAY: 965b11909c581f90-MRS
+CF-RAY: 965b532a1b05c9c6-SIN
 alt-svc: h3=":443"; ma=86400
 
 [
@@ -2417,13 +1546,13 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	userId=1
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIsInVzZXIiOiJtb3JfMjMxNCIsImlhdCI6MTc1MzYwODA3Mn0.kbJ70OLfQZPa_96k6VyMI4F0bOdv8_qWxJWWIDz7ozE
+Headers:		Authorization=Bearer null
 				Accept=*/*
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Sun, 27 Jul 2025 09:21:48 GMT
+Date: Sun, 27 Jul 2025 10:06:37 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -2432,10 +1561,10 @@ Etag: W/"146-FwHfNZmdUPmJQHLVlvUyMMxf3IQ"
 X-Powered-By: Express
 Cf-Cache-Status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=42t9K8xz6UFKdvMvVdRCLo5N9Q%2FDzpbSg1lvsByxJYY6RVJaakpSapDxbI50xWNsycosneADqY1ARuVHaGRJ7Q27xrcFwyr%2F6JGeXOVa1hk%3D"}]}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=IUFT2fJyMMzg7SRrSbydHFx1z4WH5dQa68ulI7z9FkbbIXvsvW80y9gimSHqz%2F2Fnm6VVXbCDzut944yDH8u0nOlIqu3M4RUsuUA0vhO8zA%3D"}]}
 Content-Encoding: gzip
 Server: cloudflare
-CF-RAY: 965b1196be7ee1e8-MRS
+CF-RAY: 965b5338dd339daa-SIN
 alt-svc: h3=":443"; ma=86400
 
 [
@@ -2494,7 +1623,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Sun, 27 Jul 2025 09:21:50 GMT
+Date: Sun, 27 Jul 2025 10:06:42 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -2503,10 +1632,10 @@ Etag: W/"146-FwHfNZmdUPmJQHLVlvUyMMxf3IQ"
 X-Powered-By: Express
 Cf-Cache-Status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=870867ASsG9w%2BCGvPAYrZ06rFHvP5m4sygKRDkj1ak8ky%2BMRQ8VgvMlHReNI%2FZakRJXjfCUCq%2Fy7hhbtL4oeGSxpVceLbB3YjZr2GSZy0ow%3D"}]}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=gZ0MV1p1rR14cPptPObhr2T4uUIkLJl1pRQWuuZmXcIjYukybzVS7ATohIOmfKlHDUjLeKqA7MJrG3TudTTq3ItcB6MbrlvRlzLQoQiA"}]}
 Content-Encoding: gzip
 Server: cloudflare
-CF-RAY: 965b11a2c9e5e232-MRS
+CF-RAY: 965b53580cc95f2f-SIN
 alt-svc: h3=":443"; ma=86400
 
 [
@@ -2558,7 +1687,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	id=1
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIsInVzZXIiOiJtb3JfMjMxNCIsImlhdCI6MTc1MzYwODA3Mn0.kbJ70OLfQZPa_96k6VyMI4F0bOdv8_qWxJWWIDz7ozE
+Headers:		Authorization=Bearer null
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -2569,25 +1698,25 @@ Body:
     "date": "2025-07-27",
     "products": [
         {
-            "productId": 65,
-            "quantity": 5
+            "productId": 30,
+            "quantity": 4
         }
     ]
 }
 HTTP/1.1 200 OK
-Date: Sun, 27 Jul 2025 09:21:51 GMT
+Date: Sun, 27 Jul 2025 10:06:45 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
 Access-Control-Allow-Origin: *
-Etag: W/"52-XrSHaFsfPLvblBNTvHRAFHF3koM"
+Etag: W/"52-Nb69Lr81zC60c4K6/rAGsiiAzA4"
 X-Powered-By: Express
 Cf-Cache-Status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=XqLotFWLXg02E%2B0kYREjAazUtaWJryrZn3VgFhJ3FLhaE09yzM%2BRRlVS%2BhcaISWte3RFJyQeUuzxLsW53Ghrjl903hQb5h057ke4LQXb"}]}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=20uDVFhGqSTPCVCC18rdT8fP6GEkd2rEiJG3mfLUK62apYLnVx1DNgKSi0BqnICy%2F1p5gskiHXMPGIEwJxGHGsEuOpiCJUve0aIFzSCeKoM%3D"}]}
 Content-Encoding: gzip
 Server: cloudflare
-CF-RAY: 965b11a8e93a449e-MRS
+CF-RAY: 965b536a1c83fd08-SIN
 alt-svc: h3=":443"; ma=86400
 
 {
@@ -2596,8 +1725,1256 @@ alt-svc: h3=":443"; ma=86400
     "date": "2025-07-27",
     "products": [
         {
-            "productId": 65,
-            "quantity": 5
+            "productId": 30,
+            "quantity": 4
+        }
+    ]
+}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            HTTP/1.1 200 OK
+Date: Sun, 27 Jul 2025 10:06:20 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"98-eX0lFYeQYdrOzdg/okOwpZvPDqk"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=4rFNMb9WCxGXW0ukhF1qxJP3awCkKymuB2mgrJCrDyJwsnhSjgoVNsc9pyY09eqmuYpbxi7OmqO6uY5s5i5q1nhWIn%2BslaXpKuFp8qcz"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 965b52d3ac3111a1-MRS
+alt-svc: h3=":443"; ma=86400
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIsInVzZXIiOiJtb3JfMjMxNCIsImlhdCI6MTc1MzYxMDc4MH0.CTxNwLJt6Q91HJUkJuBbH4NzsWMtgdx1lhPolf7Nyzc"
+}
+HTTP/1.1 200 OK
+Date: Sun, 27 Jul 2025 10:06:21 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"a1-wvAyaNKAHffOoZd5/I4wHuNFvSs"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=oXATbeDNWP1l2DPF4xxkh7CSa8l9fN9SYg2zDhzl2p9IHniO8Y3OhdNUxSQxPDhCmGLVkSPdnccqJUyQNgxTof7qXOHdpA2C2LHngwpXzFw%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 965b52d5aeaae1cd-MRS
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 1,
+    "userId": 1,
+    "date": "2020-03-02T00:00:00.000Z",
+    "products": [
+        {
+            "productId": 1,
+            "quantity": 4
+        },
+        {
+            "productId": 2,
+            "quantity": 1
+        },
+        {
+            "productId": 3,
+            "quantity": 6
+        }
+    ],
+    "__v": 0
+}
+HTTP/1.1 200 OK
+Date: Sun, 27 Jul 2025 10:06:24 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"3a8-j3C8983spvK8GpaSYa+SyYlAS2A"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=tU5ucBs6CBO08zfyGVbTaaqKc741OIX2IyEMXpki%2FWWAmcSXrNm2Mo4lMVIk8Ar%2F0mz2M%2Bo0Ro7St6JojgpDkGtEZ0RZPDhkJOVht%2BWdOFY%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 965b52e69c5a3db9-SIN
+alt-svc: h3=":443"; ma=86400
+
+[
+    {
+        "id": 1,
+        "userId": 1,
+        "date": "2020-03-02T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 1,
+                "quantity": 4
+            },
+            {
+                "productId": 2,
+                "quantity": 1
+            },
+            {
+                "productId": 3,
+                "quantity": 6
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 2,
+        "userId": 1,
+        "date": "2020-01-02T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 2,
+                "quantity": 4
+            },
+            {
+                "productId": 1,
+                "quantity": 10
+            },
+            {
+                "productId": 5,
+                "quantity": 2
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 3,
+        "userId": 2,
+        "date": "2020-03-01T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 1,
+                "quantity": 2
+            },
+            {
+                "productId": 9,
+                "quantity": 1
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 4,
+        "userId": 3,
+        "date": "2020-01-01T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 1,
+                "quantity": 4
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 5,
+        "userId": 3,
+        "date": "2020-03-01T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 7,
+                "quantity": 1
+            },
+            {
+                "productId": 8,
+                "quantity": 1
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 6,
+        "userId": 4,
+        "date": "2020-03-01T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 10,
+                "quantity": 2
+            },
+            {
+                "productId": 12,
+                "quantity": 3
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 7,
+        "userId": 8,
+        "date": "2020-03-01T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 18,
+                "quantity": 1
+            }
+        ],
+        "__v": 0
+    }
+]
+HTTP/1.1 200 OK
+Date: Sun, 27 Jul 2025 10:06:24 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"120-HNMhv14aQeBJetA9fBvavCZ+gdk"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=GLIkDiNxEl2Y61KKYWZvBn5ngzP7tshx0C9t00BcMNxFwTQURyEEEaxvQuwOcDZK80A8zgakcGtGB6Ypl%2FMlNaSSOGgO2ThPJ7xsjVughTU%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 965b52e87ddc49f3-SIN
+alt-svc: h3=":443"; ma=86400
+
+{
+    "address": {
+        "geolocation": {
+            "lat": "-37.3159",
+            "long": "81.1496"
+        },
+        "city": "kilcoole",
+        "street": "new road",
+        "number": 7682,
+        "zipcode": "12926-3874"
+    },
+    "id": 1,
+    "email": "john@gmail.com",
+    "username": "johnd",
+    "password": "m38rmF$",
+    "name": {
+        "firstname": "john",
+        "lastname": "doe"
+    },
+    "phone": "1-570-236-7033",
+    "__v": 0
+}
+HTTP/1.1 200 OK
+Date: Sun, 27 Jul 2025 10:06:26 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"3a8-nb02RQT3OuKfcepxTeTynGjWm8Q"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=mj89b8JZlQJgYt9RzNb6wJJrrDS6U20HBWFTrfBOnfzpT4hzxe%2BCKYr1XH5iqOn%2FIG%2BltsOjiVPrgg8IoWiOS7rAECe0sqL5cBPc7sIlOfE%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 965b52f61b8f3e01-SIN
+alt-svc: h3=":443"; ma=86400
+
+[
+    {
+        "id": 7,
+        "userId": 8,
+        "date": "2020-03-01T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 18,
+                "quantity": 1
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 6,
+        "userId": 4,
+        "date": "2020-03-01T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 10,
+                "quantity": 2
+            },
+            {
+                "productId": 12,
+                "quantity": 3
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 5,
+        "userId": 3,
+        "date": "2020-03-01T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 7,
+                "quantity": 1
+            },
+            {
+                "productId": 8,
+                "quantity": 1
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 4,
+        "userId": 3,
+        "date": "2020-01-01T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 1,
+                "quantity": 4
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 3,
+        "userId": 2,
+        "date": "2020-03-01T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 1,
+                "quantity": 2
+            },
+            {
+                "productId": 9,
+                "quantity": 1
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 2,
+        "userId": 1,
+        "date": "2020-01-02T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 2,
+                "quantity": 4
+            },
+            {
+                "productId": 1,
+                "quantity": 10
+            },
+            {
+                "productId": 5,
+                "quantity": 2
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 1,
+        "userId": 1,
+        "date": "2020-03-02T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 1,
+                "quantity": 4
+            },
+            {
+                "productId": 2,
+                "quantity": 1
+            },
+            {
+                "productId": 3,
+                "quantity": 6
+            }
+        ],
+        "__v": 0
+    }
+]
+HTTP/1.1 200 OK
+Date: Sun, 27 Jul 2025 10:06:28 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"a1-wvAyaNKAHffOoZd5/I4wHuNFvSs"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=4YwI%2B9D0eweDJRsTMCbx7chyucxjQyGrWdppiW6w3ZNKOrYk7hQWarWAr%2B%2FIyaCaX9v1lkzdSE07p1%2FsEVdDcZP6L8z%2BeUPKGosnQhzzCq8%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 965b5302186dce87-SIN
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 1,
+    "userId": 1,
+    "date": "2020-03-02T00:00:00.000Z",
+    "products": [
+        {
+            "productId": 1,
+            "quantity": 4
+        },
+        {
+            "productId": 2,
+            "quantity": 1
+        },
+        {
+            "productId": 3,
+            "quantity": 6
+        }
+    ],
+    "__v": 0
+}
+HTTP/1.1 200 OK
+Date: Sun, 27 Jul 2025 10:06:33 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"3a8-j3C8983spvK8GpaSYa+SyYlAS2A"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=XExa4UrvOcgBdT9pBiL5VK2kkwr5ugBfq4LSF5u82SB6vN0Hf5GyN0vTJ9hHhAU%2FjB8HWtZ3Yd%2FSjA0m76s7aNKYy9nRy7Zk%2FUNk37RsqMw%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 965b531d9b9ef8e2-SIN
+alt-svc: h3=":443"; ma=86400
+
+[
+    {
+        "id": 1,
+        "userId": 1,
+        "date": "2020-03-02T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 1,
+                "quantity": 4
+            },
+            {
+                "productId": 2,
+                "quantity": 1
+            },
+            {
+                "productId": 3,
+                "quantity": 6
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 2,
+        "userId": 1,
+        "date": "2020-01-02T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 2,
+                "quantity": 4
+            },
+            {
+                "productId": 1,
+                "quantity": 10
+            },
+            {
+                "productId": 5,
+                "quantity": 2
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 3,
+        "userId": 2,
+        "date": "2020-03-01T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 1,
+                "quantity": 2
+            },
+            {
+                "productId": 9,
+                "quantity": 1
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 4,
+        "userId": 3,
+        "date": "2020-01-01T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 1,
+                "quantity": 4
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 5,
+        "userId": 3,
+        "date": "2020-03-01T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 7,
+                "quantity": 1
+            },
+            {
+                "productId": 8,
+                "quantity": 1
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 6,
+        "userId": 4,
+        "date": "2020-03-01T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 10,
+                "quantity": 2
+            },
+            {
+                "productId": 12,
+                "quantity": 3
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 7,
+        "userId": 8,
+        "date": "2020-03-01T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 18,
+                "quantity": 1
+            }
+        ],
+        "__v": 0
+    }
+]
+HTTP/1.1 200 OK
+Date: Sun, 27 Jul 2025 10:06:33 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"16c-MMdrqY6N0sTiefLdsgtBej9eunY"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=CBKryVT2zzRgbiV45y%2FHfFoaUjHkPYWAs%2F%2BNHEzK3kAPCvO185lb5ej8NDyjlZ0d13YXsszGmXZYeg2Br%2FBK1AnJ2SqAxvXOHCWedxYzOnk%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 965b5321eeb487f3-SIN
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 1,
+    "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+    "price": 109.95,
+    "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+    "category": "men's clothing",
+    "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+    "rating": {
+        "rate": 3.9,
+        "count": 120
+    }
+}
+HTTP/1.1 200 OK
+Date: Sun, 27 Jul 2025 10:06:35 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"1cb-k9STtBKwUNpGzaiwMY35nM5R8kQ"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=AgQRH2Pa%2BY8qbdMqeK3GEu9lHHTudQuZoV6DCWpm0rKFPWynHMuHgxgihuBxie9YAV4vx6nehIOFYVqgqyUNmQk%2BWSi4jME9WCZg585fWcw%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 965b532a1b05c9c6-SIN
+alt-svc: h3=":443"; ma=86400
+
+[
+    {
+        "id": 1,
+        "userId": 1,
+        "date": "2020-03-02T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 1,
+                "quantity": 4
+            },
+            {
+                "productId": 2,
+                "quantity": 1
+            },
+            {
+                "productId": 3,
+                "quantity": 6
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 2,
+        "userId": 1,
+        "date": "2020-01-02T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 2,
+                "quantity": 4
+            },
+            {
+                "productId": 1,
+                "quantity": 10
+            },
+            {
+                "productId": 5,
+                "quantity": 2
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 3,
+        "userId": 2,
+        "date": "2020-03-01T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 1,
+                "quantity": 2
+            },
+            {
+                "productId": 9,
+                "quantity": 1
+            }
+        ],
+        "__v": 0
+    }
+]
+HTTP/1.1 200 OK
+Date: Sun, 27 Jul 2025 10:06:37 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"146-FwHfNZmdUPmJQHLVlvUyMMxf3IQ"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=IUFT2fJyMMzg7SRrSbydHFx1z4WH5dQa68ulI7z9FkbbIXvsvW80y9gimSHqz%2F2Fnm6VVXbCDzut944yDH8u0nOlIqu3M4RUsuUA0vhO8zA%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 965b5338dd339daa-SIN
+alt-svc: h3=":443"; ma=86400
+
+[
+    {
+        "id": 1,
+        "userId": 1,
+        "date": "2020-03-02T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 1,
+                "quantity": 4
+            },
+            {
+                "productId": 2,
+                "quantity": 1
+            },
+            {
+                "productId": 3,
+                "quantity": 6
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 2,
+        "userId": 1,
+        "date": "2020-01-02T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 2,
+                "quantity": 4
+            },
+            {
+                "productId": 1,
+                "quantity": 10
+            },
+            {
+                "productId": 5,
+                "quantity": 2
+            }
+        ],
+        "__v": 0
+    }
+]
+HTTP/1.1 200 OK
+Date: Sun, 27 Jul 2025 10:06:42 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"146-FwHfNZmdUPmJQHLVlvUyMMxf3IQ"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=gZ0MV1p1rR14cPptPObhr2T4uUIkLJl1pRQWuuZmXcIjYukybzVS7ATohIOmfKlHDUjLeKqA7MJrG3TudTTq3ItcB6MbrlvRlzLQoQiA"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 965b53580cc95f2f-SIN
+alt-svc: h3=":443"; ma=86400
+
+[
+    {
+        "id": 1,
+        "userId": 1,
+        "date": "2020-03-02T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 1,
+                "quantity": 4
+            },
+            {
+                "productId": 2,
+                "quantity": 1
+            },
+            {
+                "productId": 3,
+                "quantity": 6
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 2,
+        "userId": 1,
+        "date": "2020-01-02T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 2,
+                "quantity": 4
+            },
+            {
+                "productId": 1,
+                "quantity": 10
+            },
+            {
+                "productId": 5,
+                "quantity": 2
+            }
+        ],
+        "__v": 0
+    }
+]
+HTTP/1.1 200 OK
+Date: Sun, 27 Jul 2025 10:06:45 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"52-Nb69Lr81zC60c4K6/rAGsiiAzA4"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=20uDVFhGqSTPCVCC18rdT8fP6GEkd2rEiJG3mfLUK62apYLnVx1DNgKSi0BqnICy%2F1p5gskiHXMPGIEwJxGHGsEuOpiCJUve0aIFzSCeKoM%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 965b536a1c83fd08-SIN
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 1,
+    "userId": 1,
+    "date": "2025-07-27",
+    "products": [
+        {
+            "productId": 30,
+            "quantity": 4
+        }
+    ]
+}
+ltiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sun, 27 Jul 2025 10:06:28 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"a1-wvAyaNKAHffOoZd5/I4wHuNFvSs"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=4YwI%2B9D0eweDJRsTMCbx7chyucxjQyGrWdppiW6w3ZNKOrYk7hQWarWAr%2B%2FIyaCaX9v1lkzdSE07p1%2FsEVdDcZP6L8z%2BeUPKGosnQhzzCq8%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 965b5302186dce87-SIN
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 1,
+    "userId": 1,
+    "date": "2020-03-02T00:00:00.000Z",
+    "products": [
+        {
+            "productId": 1,
+            "quantity": 4
+        },
+        {
+            "productId": 2,
+            "quantity": 1
+        },
+        {
+            "productId": 3,
+            "quantity": 6
+        }
+    ],
+    "__v": 0
+}
+Request method:	GET
+Request URI:	https://fakestoreapi.com/products/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=1
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sun, 27 Jul 2025 10:06:33 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"3a8-j3C8983spvK8GpaSYa+SyYlAS2A"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=XExa4UrvOcgBdT9pBiL5VK2kkwr5ugBfq4LSF5u82SB6vN0Hf5GyN0vTJ9hHhAU%2FjB8HWtZ3Yd%2FSjA0m76s7aNKYy9nRy7Zk%2FUNk37RsqMw%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 965b531d9b9ef8e2-SIN
+alt-svc: h3=":443"; ma=86400
+
+[
+    {
+        "id": 1,
+        "userId": 1,
+        "date": "2020-03-02T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 1,
+                "quantity": 4
+            },
+            {
+                "productId": 2,
+                "quantity": 1
+            },
+            {
+                "productId": 3,
+                "quantity": 6
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 2,
+        "userId": 1,
+        "date": "2020-01-02T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 2,
+                "quantity": 4
+            },
+            {
+                "productId": 1,
+                "quantity": 10
+            },
+            {
+                "productId": 5,
+                "quantity": 2
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 3,
+        "userId": 2,
+        "date": "2020-03-01T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 1,
+                "quantity": 2
+            },
+            {
+                "productId": 9,
+                "quantity": 1
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 4,
+        "userId": 3,
+        "date": "2020-01-01T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 1,
+                "quantity": 4
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 5,
+        "userId": 3,
+        "date": "2020-03-01T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 7,
+                "quantity": 1
+            },
+            {
+                "productId": 8,
+                "quantity": 1
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 6,
+        "userId": 4,
+        "date": "2020-03-01T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 10,
+                "quantity": 2
+            },
+            {
+                "productId": 12,
+                "quantity": 3
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 7,
+        "userId": 8,
+        "date": "2020-03-01T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 18,
+                "quantity": 1
+            }
+        ],
+        "__v": 0
+    }
+]
+Request method:	GET
+Request URI:	https://fakestoreapi.com/carts?limit=3
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	limit=3
+Headers:		Authorization=Bearer null
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sun, 27 Jul 2025 10:06:33 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"16c-MMdrqY6N0sTiefLdsgtBej9eunY"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=CBKryVT2zzRgbiV45y%2FHfFoaUjHkPYWAs%2F%2BNHEzK3kAPCvO185lb5ej8NDyjlZ0d13YXsszGmXZYeg2Br%2FBK1AnJ2SqAxvXOHCWedxYzOnk%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 965b5321eeb487f3-SIN
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 1,
+    "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+    "price": 109.95,
+    "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+    "category": "men's clothing",
+    "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+    "rating": {
+        "rate": 3.9,
+        "count": 120
+    }
+}
+HTTP/1.1 200 OK
+Date: Sun, 27 Jul 2025 10:06:35 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"1cb-k9STtBKwUNpGzaiwMY35nM5R8kQ"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=AgQRH2Pa%2BY8qbdMqeK3GEu9lHHTudQuZoV6DCWpm0rKFPWynHMuHgxgihuBxie9YAV4vx6nehIOFYVqgqyUNmQk%2BWSi4jME9WCZg585fWcw%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 965b532a1b05c9c6-SIN
+alt-svc: h3=":443"; ma=86400
+
+[
+    {
+        "id": 1,
+        "userId": 1,
+        "date": "2020-03-02T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 1,
+                "quantity": 4
+            },
+            {
+                "productId": 2,
+                "quantity": 1
+            },
+            {
+                "productId": 3,
+                "quantity": 6
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 2,
+        "userId": 1,
+        "date": "2020-01-02T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 2,
+                "quantity": 4
+            },
+            {
+                "productId": 1,
+                "quantity": 10
+            },
+            {
+                "productId": 5,
+                "quantity": 2
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 3,
+        "userId": 2,
+        "date": "2020-03-01T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 1,
+                "quantity": 2
+            },
+            {
+                "productId": 9,
+                "quantity": 1
+            }
+        ],
+        "__v": 0
+    }
+]
+Request method:	GET
+Request URI:	https://fakestoreapi.com/carts/user/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	userId=1
+Headers:		Authorization=Bearer null
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sun, 27 Jul 2025 10:06:37 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"146-FwHfNZmdUPmJQHLVlvUyMMxf3IQ"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=IUFT2fJyMMzg7SRrSbydHFx1z4WH5dQa68ulI7z9FkbbIXvsvW80y9gimSHqz%2F2Fnm6VVXbCDzut944yDH8u0nOlIqu3M4RUsuUA0vhO8zA%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 965b5338dd339daa-SIN
+alt-svc: h3=":443"; ma=86400
+
+[
+    {
+        "id": 1,
+        "userId": 1,
+        "date": "2020-03-02T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 1,
+                "quantity": 4
+            },
+            {
+                "productId": 2,
+                "quantity": 1
+            },
+            {
+                "productId": 3,
+                "quantity": 6
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 2,
+        "userId": 1,
+        "date": "2020-01-02T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 2,
+                "quantity": 4
+            },
+            {
+                "productId": 1,
+                "quantity": 10
+            },
+            {
+                "productId": 5,
+                "quantity": 2
+            }
+        ],
+        "__v": 0
+    }
+]
+Request method:	GET
+Request URI:	https://fakestoreapi.com/carts/user/1?startdate=2019-12-10&enddate=2020-10-10
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	userId=1
+				startdate=2019-12-10
+				enddate=2020-10-10
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sun, 27 Jul 2025 10:06:42 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"146-FwHfNZmdUPmJQHLVlvUyMMxf3IQ"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=gZ0MV1p1rR14cPptPObhr2T4uUIkLJl1pRQWuuZmXcIjYukybzVS7ATohIOmfKlHDUjLeKqA7MJrG3TudTTq3ItcB6MbrlvRlzLQoQiA"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 965b53580cc95f2f-SIN
+alt-svc: h3=":443"; ma=86400
+
+[
+    {
+        "id": 1,
+        "userId": 1,
+        "date": "2020-03-02T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 1,
+                "quantity": 4
+            },
+            {
+                "productId": 2,
+                "quantity": 1
+            },
+            {
+                "productId": 3,
+                "quantity": 6
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 2,
+        "userId": 1,
+        "date": "2020-01-02T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 2,
+                "quantity": 4
+            },
+            {
+                "productId": 1,
+                "quantity": 10
+            },
+            {
+                "productId": 5,
+                "quantity": 2
+            }
+        ],
+        "__v": 0
+    }
+]
+Request method:	PUT
+Request URI:	https://fakestoreapi.com/carts/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=1
+Headers:		Authorization=Bearer null
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "userId": 1,
+    "date": "2025-07-27",
+    "products": [
+        {
+            "productId": 30,
+            "quantity": 4
+        }
+    ]
+}
+HTTP/1.1 200 OK
+Date: Sun, 27 Jul 2025 10:06:45 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"52-Nb69Lr81zC60c4K6/rAGsiiAzA4"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=20uDVFhGqSTPCVCC18rdT8fP6GEkd2rEiJG3mfLUK62apYLnVx1DNgKSi0BqnICy%2F1p5gskiHXMPGIEwJxGHGsEuOpiCJUve0aIFzSCeKoM%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 965b536a1c83fd08-SIN
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 1,
+    "userId": 1,
+    "date": "2025-07-27",
+    "products": [
+        {
+            "productId": 30,
+            "quantity": 4
         }
     ]
 }
