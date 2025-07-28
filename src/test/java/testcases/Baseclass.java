@@ -96,7 +96,7 @@ public class Baseclass {
 
             if (response.getStatusCode() == 200) {
                 String generatedToken = response.jsonPath().getString("token");
-                System.out.println("✅ Token generated successfully.");
+                System.out.println("Token generated successfully:"+generatedToken);
                 return generatedToken;
             } else {
                 System.err.println("❌ Login failed. Status: " + response.getStatusCode() + ", Body: " + response.asString());
